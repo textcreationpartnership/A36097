@@ -1,0 +1,703 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse of local motion undertaking to demonstrate the laws of motion, and withall to prove that of the seven rules delivered by M. Des-Cartes on this subject, he hath mistaken six / by A.M.</title>
+            <author>A. M., 17th cent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1670</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 84 KB of XML-encoded text transcribed from 49 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A36097</idno>
+            <idno type="STC">Wing D1600</idno>
+            <idno type="STC">ESTC R24296</idno>
+            <idno type="EEBO-CITATION">08118896</idno>
+            <idno type="OCLC">ocm 08118896</idno>
+            <idno type="VID">40882</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A36097)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40882)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1227:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse of local motion undertaking to demonstrate the laws of motion, and withall to prove that of the seven rules delivered by M. Des-Cartes on this subject, he hath mistaken six / by A.M.</title>
+                  <author>A. M., 17th cent.</author>
+               </titleStmt>
+               <extent>[14], 73 p., [1] leaf of plates : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed by W.G. and are to be sold by Moses Pitt,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1670.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Englished out of French."</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Motion --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-06</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-06</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40882:1" rendition="simple:additions"/>
+            <p> A DISCOURSE OF <hi>LOCAL MOTION.</hi>
+            </p>
+            <p>Undertaking to <hi>Demonſtrate</hi> The LAWS of MOTION, And withall to prove, That of the <hi>SEVEN</hi> RULES Delivered By <hi>M. Des-Cartes</hi> on this SUBjECT, He hath Miſtaken <hi>SIX.</hi>
+            </p>
+            <p>BY <hi>A. M.</hi>
+            </p>
+            <p>
+               <hi>Engliſhed</hi> out of <hi>French.</hi>
+            </p>
+            <p>
+               <hi>London,</hi> Printed by <hi>W. G.</hi> and are to be ſold by <hi>Moſes Pitt</hi> at the <hi>White-Hart</hi> in <hi>Little-Britain,</hi> 1670.</p>
+            <pb facs="tcp:40882:2"/>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:40882:2" rendition="simple:additions"/>
+            <head>The PREFACE.</head>
+            <p>
+               <seg rend="decorInit">I</seg> Pretend not to celebrate in this place the <hi>Me<g ref="char:EOLhyphen"/>chanicks,</hi> and to ſet forth the ad<g ref="char:EOLhyphen"/>vantages, which the <hi>Know<g ref="char:EOLhyphen"/>ledge</hi> of <hi>Motion</hi> affords us. It is ſufficiently known, that all the Productions, which come either from the Induſtry of Men, or from the Cauſes of Nature, are made no otherwiſe but by <hi>Motion.</hi> So that it is not poſſible to penetrate into
+<pb facs="tcp:40882:3"/> the Secrets of <hi>Nature,</hi> nor to ſucceed in the Invention and Practice of Arts, with<g ref="char:EOLhyphen"/>out the aſſiſtance of the <hi>Me<g ref="char:EOLhyphen"/>chanicks,</hi> that is, without the Knowledge of the <hi>Laws</hi> of <hi>Motion.</hi>
+            </p>
+            <p>Neither do I undertake here to go through this whole Subject. It is too vaſt to be compriſed in ſo brief a Diſcourſe as this is intended. I have confined my ſelf to what may be call'd the <hi>Elements</hi> of this Knowledge; and I inſiſt par<g ref="char:EOLhyphen"/>ticularly on conſidering the Communication which is made of Motion in <hi>Percuſ<g ref="char:EOLhyphen"/>ſions.</hi>
+            </p>
+            <pb facs="tcp:40882:3"/>
+            <p>'Tis true, that this Sub<g ref="char:EOLhyphen"/>ject hath been handled by very Eminent Men; but I take it quite otherwiſe in hand, me thinks, than they have done. For, without ma<g ref="char:EOLhyphen"/>king any particular <hi>Hypo<g ref="char:EOLhyphen"/>theſis,</hi> I make it my buſineſs to ſearch in the very ſour<g ref="char:EOLhyphen"/>ces of Nature the Cauſes of all the Effects we find in Motions, and I undertake to give the Demonſtrations of them, which, without ſup<g ref="char:EOLhyphen"/>poſing any Experiment at all, are only founded upon incontrolable Principles of pure <hi>Metaphyſicks.</hi>
+            </p>
+            <p>The Deſign will doubt<g ref="char:EOLhyphen"/>leſs
+<pb facs="tcp:40882:4"/> appear bold to thoſe, who know the difficulty, there is in thus preventing Experiments, and in preſcri<g ref="char:EOLhyphen"/>bing to Nature ſuch Laws as ſhe is afterwards to obſerve.</p>
+            <p>It may alſo come to paſs, that the Difference, to be found between the Rules, which I endevour to eſta<g ref="char:EOLhyphen"/>bliſh here, and thoſe which <hi>M. Des-Cartes</hi> hath laid down in his <hi>Principles</hi> of <hi>Phyſicks,</hi> will furniſh matter to exerciſe the curioſity of thoſe, who love the Philo<g ref="char:EOLhyphen"/>ſophy of that Author, and engage them, to make ſearch, wherein my Paralo<g ref="char:EOLhyphen"/>giſms
+<pb facs="tcp:40882:4"/> may conſiſt, in regard that the ratiocinations, which I employ, are ſo op<g ref="char:EOLhyphen"/>poſite to thoſe, which many have taken hitherto for true Demonſtrations. For I ad<g ref="char:EOLhyphen"/>vow, that of the <hi>Seven</hi> Rules of Motion, which <hi>M. Des-Cartes</hi> delivers, there is but <hi>One</hi> only, which agreeth with mine: So that either this Philoſopher hath not hit aright in this point, or I my ſelf am fallen into con<g ref="char:EOLhyphen"/>ſiderable Errours.</p>
+            <p>Mean time I cannot be ignorant of what hath been publiſh'd through all <hi>France</hi> touching the <hi>Rules of per<g ref="char:EOLhyphen"/>cuſſion,</hi>
+               <pb facs="tcp:40882:5"/> which have been pro<g ref="char:EOLhyphen"/>poſed by ſome famous Ma<g ref="char:EOLhyphen"/>thematicians of the Royal Academies of <hi>London</hi> and <hi>Paris.</hi> If there be honour in inventing any thing new in Sciences, I do not conteſt with theſe perſons about that, which they pretend to, of having found the Secret of the Laws of Motion. I willingly and fully yield it to them, and I claim no<g ref="char:EOLhyphen"/>thing therein. Yet this I can ſay, that 'tis now three years, that I gave abroad all what I deliver here in this Diſcourſe; and that, if my Rules be compared with
+<pb facs="tcp:40882:5"/> theirs, there may poſſibly be found conformity enough to make Men believe that I have lighted together with them upon the truth: But there will alſo be found difference enough to make Men judge, that I have not learn'd it from them. Be<g ref="char:EOLhyphen"/>ſides, that they have done no more than meerly to propoſe their Rules without proving them; whereas I undertake to demonſtrate all thoſe, I advance. And although <hi>M. Hugens</hi> hath given us hopes of publiſh<g ref="char:EOLhyphen"/>ing ſhortly a Book, wherein he would prove all his
+<pb facs="tcp:40882:6"/> Rules; yet not withſtanding, without comparing my ſelf to ſo excellent a perſon, I dare affirm, that his Method will be quite different from mine; foraſmuch as he hath already explain'd himſelf ſufficiently, to give us to un<g ref="char:EOLhyphen"/>derſtand, that his Demon<g ref="char:EOLhyphen"/>ſtrations are grounded up<g ref="char:EOLhyphen"/>on particular <hi>Hypotheſes.</hi>
+            </p>
+            <p>However, I have already declared my ſelf about the little pretenſion, I have to the glory of paſſing for the Inventor of theſe things: I leave it altogether to thoſe Gentlemen; and if they will allow me a ſhare
+<pb facs="tcp:40882:6"/> therein, I ſhall receive it as a favour, and take it kind<g ref="char:EOLhyphen"/>ly, that they will acknow<g ref="char:EOLhyphen"/>ledge I have hit upon their thoughts, or at leaſt not conſiderably ſhot beſides the Mark.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:40882:7"/>
+            <head>A TABLE of the HEADS.</head>
+            <list>
+               <item>
+                  <hi>I. A</hi> Body is in it ſelf indiffe<g ref="char:EOLhyphen"/>rent to Reſt or Motion. <hi>pag. 1.</hi>
+               </item>
+               <item>
+                  <hi>II.</hi> If a Body be once at Reſt, it will ever remain therein. <hi>pag. 2.</hi>
+               </item>
+               <item>
+                  <hi>III.</hi> And if it be once in Motion, it continues alſo to move always. <hi>pag. 3.</hi>
+               </item>
+               <item>
+                  <hi>IV.</hi> That Reſt is not a meer Nega<g ref="char:EOLhyphen"/>tion. <hi>pag. 4.</hi>
+               </item>
+               <item>
+                  <hi>V.</hi> That there is as much poſitive Action in Reſt, as in Motion. <hi>pag. 5.</hi>
+               </item>
+               <item>
+                  <hi>VI.</hi> Objections. <hi>pag. 8.</hi>
+               </item>
+               <item>
+                  <hi>VII.</hi> A Finite Cauſe may have an Effect that laſts always. <hi>pag. 9.</hi>
+               </item>
+               <pb facs="tcp:40882:7"/>
+               <item>
+                  <hi>VIII.</hi> This Quality, which is cal<g ref="char:EOLhyphen"/>led <hi>Impetuoſity,</hi> lasts always. <hi>pag. 11.</hi>
+               </item>
+               <item>
+                  <hi>IX.</hi> The Bodies which we move, do ceaſe to move, becauſe they are impeded. <hi>pag. 13.</hi>
+               </item>
+               <item>
+                  <hi>X.</hi> A Demand for the ſafety of the following Demonstrations. <hi>pag. 14.</hi>
+               </item>
+               <item>
+                  <hi>XI.</hi> A Body receiving ſucceſſively many Determinations, remains only affected with the laſt. <hi>pag. 16.</hi>
+               </item>
+               <item>
+                  <hi>XII.</hi> A free Body cannot be deter<g ref="char:EOLhyphen"/>min'd to move in a Curve Line, nor with unequal celerity. <hi>pag. 17.</hi>
+               </item>
+               <item>
+                  <hi>XIII.</hi> Every Body that moveth about a Center, endevours to recede from it. <hi>pag. 19.</hi>
+               </item>
+               <item>
+                  <hi>XIV.</hi> The Stars cannot move of themſelves. <hi>pag. 20.</hi>
+               </item>
+               <pb facs="tcp:40882:8"/>
+               <item>
+                  <hi>XV.</hi> How a Body may be moved circularly. <hi>pag. 21.</hi>
+               </item>
+               <item>
+                  <hi>XVI.</hi> One Body moving against another Body giveth it its whole Motion. <hi>pag. 23.</hi>
+               </item>
+               <item>
+                  <hi>XVII.</hi> In the meeting of two Bo<g ref="char:EOLhyphen"/>dies there is made a percuſſion, which is mutual, and equally received in both. <hi>pag. 24.</hi>
+               </item>
+               <item>
+                  <hi>XVIII.</hi> A moving Body, meeting with another Body that is qui<g ref="char:EOLhyphen"/>eſcent, gives it all its Motion, and remains it ſelf moveleſs. <hi>pag. 26.</hi>
+               </item>
+               <item>
+                  <hi>XIX.</hi> What is meant by abſolute and reſpective velocity. <hi>pag. 28.</hi>
+               </item>
+               <item>
+                  <hi>XX.</hi> The Percuſſions are as the re<g ref="char:EOLhyphen"/>ſpective Velocities. <hi>pag. 29.</hi>
+               </item>
+               <item>
+                  <hi>XXI.</hi> Two Bodies meeting one an<g ref="char:EOLhyphen"/>other, turn back, making an ex<g ref="char:EOLhyphen"/>change of their velocity. <hi>pag. 31.</hi>
+               </item>
+               <pb facs="tcp:40882:8"/>
+               <item>
+                  <hi>XXII.</hi> Two Bodies moving towards the ſame places, continue after their encounter by exchanging their velocities. <hi>pag. 33.</hi>
+               </item>
+               <item>
+                  <hi>XXIII.</hi> An hard Body coming to hit another Body that cannot be ſhaken, is reflected with its whole Motion. <hi>pag. 35.</hi>
+               </item>
+               <item>
+                  <hi>XXIV.</hi> The Angle of Reflection is equal to the Angle of Incidence. <hi>pag 38.</hi>
+               </item>
+               <item>
+                  <hi>XXV.</hi> It may be imagined, that tbe oblique Motion is compoſed of two Motions. <hi>pag. 40.</hi>
+               </item>
+               <item>
+                  <hi>XXVI.</hi> A Remark upon the Ar<g ref="char:EOLhyphen"/>gument of <hi>P. Riccioli. pag. 42.</hi>
+               </item>
+               <item>
+                  <hi>XXVII.</hi> A Remarque upon ſome Citadels. <hi>pag. 45.</hi>
+               </item>
+               <item>
+                  <hi>XXVIII.</hi> A general Rule of all Per<g ref="char:EOLhyphen"/>cuſſions. <hi>pag. 46.</hi>
+               </item>
+               <item>
+                  <hi>XXIX.</hi> There is always equal quan<g ref="char:EOLhyphen"/>tity of <hi>reſpective</hi> Motion. <hi>p. 48.</hi>
+               </item>
+               <item>
+                  <hi>XXX.</hi> The midst of two Bodies is
+<pb facs="tcp:40882:9"/> always uniformly moved in a direct Line. <hi>pag. 49.</hi>
+               </item>
+               <item>
+                  <hi>XXXI.</hi> All theſe Rules are true, whether the Bodies be equal, or not. <hi>pag. 50.</hi>
+               </item>
+               <item>
+                  <hi>XXXII.</hi> A Body moveth in <hi>pleno</hi> as freely as in <hi>vacuo. pag. 52.</hi>
+               </item>
+               <item>
+                  <hi>XXXIII.</hi> Motions diminiſh little by little in the Air. <hi>pag. 54.</hi>
+               </item>
+               <item>
+                  <hi>XXXIV.</hi> The Percuſſions of equal Bodies are made in <hi>pleno</hi> as in <hi>vacuo. pag. 56.</hi>
+               </item>
+               <item>
+                  <hi>XXXV.</hi> When the Bodies are un<g ref="char:EOLhyphen"/>equal, the percuſſions are made in <hi>pleno</hi> otherwiſe than in <hi>va<g ref="char:EOLhyphen"/>cuo. pag. 57.</hi>
+               </item>
+               <item>
+                  <hi>XXXVI.</hi> The Percuſſions of un<g ref="char:EOLhyphen"/>equal Bodies cannot be reduced to one General Rule. <hi>pag. 59.</hi>
+               </item>
+               <item>
+                  <hi>XXXVII.</hi> Of Refraction. <hi>pag. 61.</hi>
+               </item>
+               <item>
+                  <hi>XXXVIII.</hi> The Concluſion. <hi>pag. 62.</hi>
+               </item>
+               <item>An Appendix containing a Review of this Diſcourſe, made by the Author himſelf. <hi>pag. 67.</hi>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:40882:9"/>
+            <head>A DISCOURSE OF <hi>LOCAL MOTION.</hi>
+            </head>
+            <div n="1" type="chapter">
+               <head>
+                  <hi>I.</hi> A Body is in it ſelf indifferent to Reſt or Motion.</head>
+               <p>IF we ſhould imagin, that in the World there were nothing corpo<g ref="char:EOLhyphen"/>real but one or two Balls, and ſe<g ref="char:EOLhyphen"/>ver from the ſame whatever might cauſe any kind of ſecret Commerce, whereby the one might attract or repel the other: Or, if we ſhould con<g ref="char:EOLhyphen"/>ſider ſuch Balls free from all kind of particular Determination; without Le<g ref="char:EOLhyphen"/>vity, without Gravity; in <hi>Vacuo,</hi> or at leaſt in a Space altogether uniform,
+<pb n="2" facs="tcp:40882:10"/> where nothing were that might carry them rather this than that way, or hin<g ref="char:EOLhyphen"/>der them to move freely, if they ſhould happen to be propelled towards a place: Then ſhould we conceive theſe Balls to be abſolutely indifferent to touch one another, or to be ſever'd; to be here, or there; foraſmuch as they would find nothing more in one place than in another, and conſequently be equally indifferent for Reſt or Mo<g ref="char:EOLhyphen"/>tion.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>
+                  <hi>II.</hi> If a Body be once at Reſt, it will ever remain therein.</head>
+               <p>ANd ſo if we further conceive, that one of theſe Balls is at Reſt, ha<g ref="char:EOLhyphen"/>ving been put in that ſtate by ſome Cauſe, that hath power to ſtir or ſtop Bodies; we at the ſame time conceive, it will eternally remain at Reſt, if there be not ſome new Cauſe diſplacing it, by putting it into Motion; becauſe this Ball, being of it ſelf indifferent to Reſt
+<pb n="3" facs="tcp:40882:10"/> or Motion, and being once deter<g ref="char:EOLhyphen"/>mined to Reſt, it is impoſſible it ſhould of it ſelf quit that Reſt, and fall to Motion: Wherefore it muſt needs continue forever in that Reſt, if nothing happen to make it change that ſtate.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>
+                  <hi>III.</hi> And if it be once in Motion, it continues alſo to move always.</head>
+               <p>BY the ſame Reaſon we muſt con<g ref="char:EOLhyphen"/>ceive, that if one of theſe Balls be put in Motion, by ſome Cauſe or other, it will continue to move for<g ref="char:EOLhyphen"/>ever, if no new Cauſe come to ſtop it: Becauſe this Ball being of it ſelf indifferent to Motion and Reſt, and be<g ref="char:EOLhyphen"/>ing once determined to Motion, it is impoſſible it ſhould determine it ſelf to ceaſe from that Motion, to take Reſt: And ſo it muſt ever remain in this Mo<g ref="char:EOLhyphen"/>tion, if nothing elſe come to ſtop it.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="4" facs="tcp:40882:11"/>
+               <head>
+                  <hi>IV.</hi> That Reſt is not a meer Nega<g ref="char:EOLhyphen"/>tion.</head>
+               <p>I Find that we are generally inclined to conſider Reſt as a Ceſſation of Action, and to take Motion for a po<g ref="char:EOLhyphen"/>ſitive Action, which we experiment in our ſelves, when we move our ſelves, or will move another Body: Whereas we conceive a Body to be at Reſt from the time that no Body tou<g ref="char:EOLhyphen"/>ches it, or that there is no other Cauſe which actually imprints in it this Qua<g ref="char:EOLhyphen"/>lity or this Action neceſſary to Motion. And ſo it ſeems, that although a Body, being once at Reſt, remains therein for<g ref="char:EOLhyphen"/>ever, yet it ſhould not follow, that if it be once in Motion, it ſhould ever perſiſt therein; ſince that for to be mov'd there is required a poſitive Acti<g ref="char:EOLhyphen"/>on, but that Reſt is nothing elſe but a Negation or a Ceaſing from Action or Motion.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="5" facs="tcp:40882:11"/>
+               <head>
+                  <hi>V.</hi> That there is as much poſitive Action in Reſt, as in Mo<g ref="char:EOLhyphen"/>tion.</head>
+               <p>BUt if the Weight of our Bodies, which we muſt bear; the rigidneſs of our Limbs, which we muſt bend; the agitation of the Spirits, which we muſt employ; and many other things make us feel ſome reſiſtance, and ob<g ref="char:EOLhyphen"/>lige us to uſe ſome force to overcome theſe impediments: We cannot draw from thence any Sequel againſt our <hi>Hypotheſis,</hi> in which we ſuppoſe, there is no impediment neither of Gravity, nor of particular Inclination, nor of any Body reſiſting from without. In this Caſe 'tis manifeſt, that there needs no more Action for Motion than for Reſt; and that for the Reſt of a Body it is not leſs requiſite, it ſhould be put at Reſt, than it is neceſſary for its Mo<g ref="char:EOLhyphen"/>tion, that it ſhould be put into it. And indeed if we conſider well the
+<pb n="6" facs="tcp:40882:12"/> nature of Reſt and Motion, we ſhall find, that Motion may as well be called a <hi>Ceſſation of Reſt,</hi> as Reſt a <hi>Ceſſation of Motion;</hi> or rather we ſhall find, that both are ſomething poſitive, in regard that <hi>Motion is a ſtate, by which a Body correſponds ſucceſſively <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o many places;</hi> or, <hi>a paſſing Preſence;</hi> or, <hi>a ſequel of divers Preſences in divers places:</hi> As <hi>Reſt is a ſtate, by which a Body always correſponds to one and the ſame place;</hi> or, <hi>one and the ſame Pre<g ref="char:EOLhyphen"/>ſence in one and the ſame place:</hi> So that Reſt as well as Motion is a <hi>State,</hi> or a <hi>Preſence;</hi> but differing in this, that <hi>Reſt</hi> is a State of Conſiſtency, and a Conſtant Preſence, always kept to be the ſame; whereas <hi>Motion</hi> is a Chan<g ref="char:EOLhyphen"/>ging State, and a Tranſitory Preſence. Now in what manner ſoever, theſe <hi>con<g ref="char:EOLhyphen"/>ſtant</hi> or <hi>paſſing</hi> Preſences be conſider'd, if there be any Action, or any Power, or any kind of Cauſe in the Body, which is to produce this Conſecution of divers Preſences in <hi>Motion,</hi> there is no leſs Action or Force neceſſary in <hi>Reſt,</hi> to preſerve the ſame Preſence,
+<pb n="7" facs="tcp:40882:12"/> in regard that to preſerve a thing, is to produce it continually. It is therefore evident, that after the Preſence hath been produced by a Body in the firſt inſtant (I ſpeak in the ſenſe of thoſe, who hold, that there is a true producti<g ref="char:EOLhyphen"/>on of theſe Preſences) it muſt needs be alſo produced a new in the inſtant fol<g ref="char:EOLhyphen"/>lowing by the ſame Body, to make it remain Quieſcent: But, methinks, there is in that as much Action and as much Power, as there is for the pro<g ref="char:EOLhyphen"/>ducing in the ſecond inſtant a new Pre<g ref="char:EOLhyphen"/>ſence, inſtead of reproducing the firſt.</p>
+               <q>
+                  <l>Nec minor eſt virtus, quàm quaerere, par<g ref="char:EOLhyphen"/>ta tueri.</l>
+               </q>
+               <p>So that, whether there be to be produced every inſtant a new Preſence for <hi>Motion,</hi> or reproduced the ſame Preſence for <hi>Reſt;</hi> it will always a<g ref="char:EOLhyphen"/>mount to the ſame, and a Body will have no leſs work to preſerve to it ſelf this ſame Preſence, and to remain Qui<g ref="char:EOLhyphen"/>eſcent, than to produce new Preſences, and conſerve it ſelf in Motion. Whence it is to be concluded, that as a Body
+<pb n="8" facs="tcp:40882:13"/> from the very time, it hath been once determin'd to Reſt, is ſufficiently de<g ref="char:EOLhyphen"/>termin'd always to keep it ſelf in the ſame Preſence; ſo alſo from the very moment, it hath been once determin'd to Motion, it is ſufficiently determin'd always to produce new Preſences, and ſo to move it ſelf without ceaſing.</p>
+            </div>
+            <div n="6" type="chapter">
+               <head>
+                  <hi>VI.</hi> Objections.</head>
+               <p>I Shall not ſtay to anſwer all the cavilling Scruples that may be caſt in upon this Subject, ſeeing they are eaſie enough to reſolve: For inſtance, 'tis ſaid, That a Finite Cauſe cannot pro<g ref="char:EOLhyphen"/>duce an Infinite Effect, and that this Motion would be Infinite, ſince it would laſt forever. 'Tis further al<g ref="char:EOLhyphen"/>ledged, That whoever moveth a Body, impreſſeth therein a certain Quality, call'd <hi>Impetuoſity,</hi> and that as long as this Quality laſts, the Motion laſts alſo; but when <hi>that</hi> ceaſeth, the Mo<g ref="char:EOLhyphen"/>tion ceaſeth likewiſe. And 'tis added,
+<pb n="9" facs="tcp:40882:13"/> That this Quality cannot laſt always, being in its nature ſo imperfect, that it cannot laſt long. Beſides, it is Ob<g ref="char:EOLhyphen"/>jected, That Experience ſhews, that all Motions do ceaſe little by little, as ap<g ref="char:EOLhyphen"/>peareth in a Wheel that hath been vio<g ref="char:EOLhyphen"/>lently agitated, in a Ball that hath been rolled on a Billiard-Table, in a Ball ſuſpended and vibrated, and in other innumerable Bodies; the Motions of which, do by little and little diminiſh, and at laſt are quite extinguiſh'd.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>
+                  <hi>VII.</hi> A Finite Cauſe may have an Effect that laſts always.</head>
+               <p>I Say, it is very eaſie to Anſwer all theſe Objections, and many ſuch others. If any one will maintain, that Motion is an Infinite Effect, be<g ref="char:EOLhyphen"/>cauſe it laſts forever; he muſt alſo ſay, that Reſt will be an Infinite Effect, if it thus laſt eternally; and, that con<g ref="char:EOLhyphen"/>ſequently, a Finite Cauſe not being able to have an Infinite Effect, it muſt
+<pb n="10" facs="tcp:40882:14"/> be ſaid, that after a Man hath put a Body at Reſt, this Body cannot re<g ref="char:EOLhyphen"/>main in that Reſt forever, but that Reſt muſt at laſt ceaſe, and the Body begin to move: which is not conſonant to reaſon. There is a great difference be<g ref="char:EOLhyphen"/>tween an Infinite and an Ever-during Effect. And if it be true, that a Fi<g ref="char:EOLhyphen"/>nite Cauſe cannot produce an Infinite Effect; it is as true, that a Cauſe, how bounded ſoever it be, may produce an Ever-ſubſiſting Effect, if it be not de<g ref="char:EOLhyphen"/>ſtroyed by ſome new Cauſe. For if I make a ſquare Figure upon Wax, this Figure will laſt always, if nothing ſurvene to ſpoil it, or to deſtroy the Wax it ſelf. So that 'tis not incongru<g ref="char:EOLhyphen"/>ous at all, to ſay, that if Reſt or Moti<g ref="char:EOLhyphen"/>on be once produced in a Body, this Reſt or Motion ſhall laſt without end, if nothing come to deſtroy it.</p>
+            </div>
+            <div n="8" type="chapter">
+               <pb n="11" facs="tcp:40882:14"/>
+               <head>
+                  <hi>VIII.</hi> This Quality, which is cal<g ref="char:EOLhyphen"/>led <hi>Impetuoſity,</hi> lasts always.</head>
+               <p>AS to that Quality, which is pre<g ref="char:EOLhyphen"/>tended to be produced in the Body by him that ſtriketh it; 'tis all one to me, whether it be believed to be ſo or not: But this I ſay, that if that Qua<g ref="char:EOLhyphen"/>lity be neceſſary, it will laſt forever, after it hath been once produced, and that it will never ceaſe to be, till ſome new Cauſe deſtroy it. And herein the Sentiment of <hi>Vaſquez</hi> 1. 2. <hi>d.</hi> 81. <hi>c.</hi> 2 <hi>&amp;</hi> 3. is very remarkable, when he teacheth generally of all Forms, ſub<g ref="char:EOLhyphen"/>ſtantial and accidental, and particularly of Motion and Impetuoſity, That, if they can ſubſiſt one moment without needing the influence of their firſt Effi<g ref="char:EOLhyphen"/>cient Cauſe, they will laſt always, until they be deſtroyed by the produ<g ref="char:EOLhyphen"/>ction of a new contrary Form. If Men will ſtill perſiſt in this Opinion,
+<pb n="12" facs="tcp:40882:15"/> and ſay, That this Quality is ſo weak in its own nature, that it deſtroys it ſelf; I do maintain, that, after this Quality ſhall have been deſtroy'd, the Motion notwithſtanding muſt continue for the reaſons already deliver'd, in re<g ref="char:EOLhyphen"/>gard that Motion cannot ceaſe, unleſs Reſt be produced a new: But there muſt always be a poſitive Cauſe to pro<g ref="char:EOLhyphen"/>duce a new, what Effect ſoever it be; whereas there needs none ſuch to make that ſubſiſt, which is already in being. And this is the true reaſon, why a ſquare Figure, made in Wax, would laſt eternally, if God ſhould keep all external Agents from deſtroying any thing in that Wax, becauſe this ſquare Body of Wax could not loſe this Fi<g ref="char:EOLhyphen"/>gure, unleſs another Figure were pro<g ref="char:EOLhyphen"/>duced: And as a Figure cannot begin to be a new, unleſs there be ſome po<g ref="char:EOLhyphen"/>ſitive Cauſe to produce it, and we alſo ſuppoſe, that there is none ſuch in this Caſe; it muſt needs follow, that this firſt Figure, which is already produced, keeps forever the poſſeſſion of its ex<g ref="char:EOLhyphen"/>iſtence, 'Tis the ſame thing with Mo<g ref="char:EOLhyphen"/>tion:
+<pb n="13" facs="tcp:40882:15"/> And although this pretended Im<g ref="char:EOLhyphen"/>petuoſity ceaſeth to be, yet the Moti<g ref="char:EOLhyphen"/>on, which is already produced, is not therefore to ceaſe alſo, becauſe there is no new Cauſe, producing Reſt, and Motion cannot ceaſe, but Reſt muſt be produced inſtead thereof.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>
+                  <hi>IX.</hi> The Bodies which we move, do ceaſe to move, becauſe they are impeded.</head>
+               <p>LAſtly, when we ſee, that Bodies moved by us do in a little time ceaſe to move, <hi>that</hi> proveth nothing againſt us; it being certain, that thoſe Bodies meet with impediments to their Mo<g ref="char:EOLhyphen"/>tion: Whence we ſee, that the more or the leſs we remove of thoſe impedi<g ref="char:EOLhyphen"/>ments, the more or leſs do thoſe Mo<g ref="char:EOLhyphen"/>tions continue. Thus a Ball rolleth much longer over a very ſmooth Alley, than in a rugged way: A Wheel turns much better, if its Axle-tree be ſlender and well turned, than when 'tis big
+<pb n="14" facs="tcp:40882:16"/> and irregular. A Stone is caſt much farther in the Air, than in Water. But I ſhall endevour in the Sequel of this Diſcourſe to explain, how all theſe Impediments do by little and little make the Motion of Bodies to ceaſe.</p>
+            </div>
+            <div n="10" type="chapter">
+               <head>
+                  <hi>X.</hi> A Demand for the ſafety of the following Demonstrations.</head>
+               <p>ALl I have been juſt now deducing about the Nature and Perpetuity of Motion, is in a manner neceſſary for the underſtanding what I pretend to demonſtrate in this Diſcourſe. But as this Queſtion can never be handled ſo clearly, but that it will always be obnoxious to the Cavils of Diſputants; I foreſee well enough, that after all my reaſonings it will doubtleſs ſo fall out, that all will not be convinced of what I ſhall have undertaken to prove. And beſides, not being willing to claſh with any, nor to leave ground to be<g ref="char:EOLhyphen"/>lieve, that I build my Diſcourſe upon
+<pb n="15" facs="tcp:40882:16"/> a doubtful Principle; I declare, that for the firmneſs of my Demonſtrations I need not it ſhould be thought, that Motion would in effect be perpetual; ſo it be but allow'd me (which no Man can deny) that Motion, once begun, laſts at leaſt for <hi>ſome</hi> time, and conti<g ref="char:EOLhyphen"/>nues the more uniformly, the leſs im<g ref="char:EOLhyphen"/>pediments there are to ſtop or diminiſh it. Let this Continuance of Motion be explain'd by the production of an <hi>impreſſed Quality,</hi> or by a <hi>ſimple De<g ref="char:EOLhyphen"/>termination,</hi> or by whatever you pleaſe, 'tis indifferent to me: I only demand, it may be allow'd me to take this as a <hi>Poſtulatum</hi> of Geometry, <hi>That, after a Body is once mov'd, it continues to move for ſome time, and that this time is conſi<g ref="char:EOLhyphen"/>derable, when there is nothing without, able to ſtop or leſſen the Motion.</hi> By the means of which <hi>Demand,</hi> I hope, that all the following Demonſtrations will be found of full force.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="16" facs="tcp:40882:17"/>
+               <head>
+                  <hi>XI.</hi> A Body receiving ſucceſſively many Determinations, remains only affected with the laſt.</head>
+               <p>A Body not only perſevereth in Reſt or Motion, according as it hath once begun to be in either; but it perſiſts alſo in the ſame kind of Motion, and with the ſame degree of Celerity in which it hath been put.</p>
+               <div type="example">
+                  <head>For Example:</head>
+                  <p>If it have begun to move in a ſtraight Line Eaſtward with one degree of Ce<g ref="char:EOLhyphen"/>lerity, it continues to move with the ſame degree without ever receding a jot from the ſame Line: Which is evident from the ſame reaſons, I alledged to prove, the Motion to laſt always.</p>
+                  <p>But it is to be Noted, that, when a Body hath ſucceſſively received many different Determinations, it remains affected with the laſt of them, the precedent making no impreſſion at all upon it.</p>
+               </div>
+               <div type="example">
+                  <pb n="17" facs="tcp:40882:17"/>
+                  <head>For Example:</head>
+                  <p>If a Ball be propelled with the hand, or otherwiſe from <hi>a</hi> to <hi>b,</hi> and that after<g ref="char:EOLhyphen"/>wards the ſame Ball be carried from <hi>b</hi> to <hi>d,</hi> and there abandoned; I ſay, that<note place="margin">Fig. 1.</note> the Ball will continue to move towards <hi>e,</hi> in the ſame Line <hi>b d e,</hi> and with that celerity it mov'd from <hi>b</hi> to <hi>d;</hi> and that firſt determination, it had received from <hi>a</hi> to <hi>b,</hi> and which would have carried it to <hi>c,</hi> ſerveth nothing now, no more than if it had never been, becauſe it is deſtroyed by this ſecond determination.</p>
+               </div>
+            </div>
+            <div n="12" type="chapter">
+               <head>
+                  <hi>XII.</hi> A free Body cannot be deter<g ref="char:EOLhyphen"/>min'd to move in a Curve Line, nor with unequal celerity.</head>
+               <p>THence it follows, that a Body can<g ref="char:EOLhyphen"/>not be determin'd to move in a Curve Line, or with unequal velocity; but that every Body that's free, con<g ref="char:EOLhyphen"/>tinues to move in a ſtraight Line, and with an uniform velocity.</p>
+               <div type="example">
+                  <pb n="18" facs="tcp:40882:18"/>
+                  <head>For Example:</head>
+                  <p>Let a Body be mov'd in a Curve Line from <hi>a</hi> through <hi>b c d e</hi> unto <hi>f</hi> (as a Stone in a Sling) and let this Body be abandon'd in <hi>f,</hi> to ſee what will be<g ref="char:EOLhyphen"/>come<note place="margin">Fig. 2.</note> of it. I ſay, that it will not con<g ref="char:EOLhyphen"/>tinue to move in a Curve Line towards <hi>h,</hi> but that it will paſs towards <hi>g</hi> in a ſtraight Line, which will touch the Curve in the point <hi>f.</hi> For, however the Body were firſt mov'd from <hi>a</hi> to <hi>b,</hi> that is nothing to this laſt determina<g ref="char:EOLhyphen"/>tion; and it would now move the ſame way, though it had only begun to move from the point <hi>b,</hi> or from <hi>c,</hi> or from <hi>d</hi> or <hi>e,</hi> or yet nearer; provided it had ſtill in <hi>f</hi> the ſame degree of cele<g ref="char:EOLhyphen"/>rity: Becauſe that theſe firſt Motions are ſo many different determinations, the latter of which deſtroy the for<g ref="char:EOLhyphen"/>mer; and ſo the Body remains affected with the laſt of all: But this laſt did carry it towards <hi>g,</hi> that is to ſay, you are to take the inclination, which the Curve Line hath at the point <hi>f,</hi> and this inclination is meaſur'd by the Tan<g ref="char:EOLhyphen"/>gent, as Geometers know: And ſo it
+<pb n="19" facs="tcp:40882:18"/> is according to this Tangent that the Body hath been determined laſt of all; and conſequently 'tis according to this Line that it continues to move.</p>
+               </div>
+            </div>
+            <div n="13" type="chapter">
+               <head>
+                  <hi>XIII.</hi> Every Body that moveth about a Center, endevours to recede from it.</head>
+               <p>THence it appears, that the Axiom is very true, which ſaith, <hi>That every Body moving round indevours to recede from the Center of its Motion:</hi> As a Stone in a Sling, which maketh the hand ſenſible of its endevour to move in a ſtraight Line, and conſequently to go from the hand, which is the Cen<g ref="char:EOLhyphen"/>ter of its Motion. So alſo do the drops of water, or the grains of ſand, which fly out into a ſtraight Line as ſoon as they can get free from the Wheel of the Cutler; and the like.</p>
+            </div>
+            <div n="14" type="chapter">
+               <pb n="20" facs="tcp:40882:19"/>
+               <head>
+                  <hi>XIV.</hi> The Stars cannot move of themſelves.</head>
+               <p>IT appears alſo, that thoſe are decei<g ref="char:EOLhyphen"/>ved, who ſuppoſing the Celeſtial Matter liquid and immoveable, do be<g ref="char:EOLhyphen"/>lieve, that the Sun and the other Stars may have received a firſt impetuoſity, which laſts ſtill, and maketh them move circularly about the Center of the World. For it is manifeſt, that if an Angel, or ſome other Cauſe what<g ref="char:EOLhyphen"/>ſoever, had thus moved a Star in a Circle about the Center of the World; aſſoon as that Angel, or that other Cauſe, ſhould abandon that Star, it would ceaſe at the ſame inſtant to move in a Circle, and fly out into a ſtraight Line towards the extremities of the World.</p>
+            </div>
+            <div n="15" type="chapter">
+               <pb n="21" facs="tcp:40882:19"/>
+               <head>
+                  <hi>XV.</hi> How a Body may be move'd circularly.</head>
+               <p>BUt if a Body faſtened, as might be a Ball ſuſpended by a Thread, or a Wheel fix'd upon its <hi>Axis,</hi> or, if it be liquid and incloſed in a Veſſel, as Water in a Baſon; then this Ball, or this Wheel, being once agitated with ſufficient violence, or this Liquor be<g ref="char:EOLhyphen"/>ing alſo ſtirred; all theſe Bodies will continue to move in a Circle; the Ball about the Nail, by which it is ſuſpen<g ref="char:EOLhyphen"/>ded; the Wheel about its <hi>Axis,</hi> where 'tis faſtened; and the Liquor about the Center of the Veſſel, in which 'tis in<g ref="char:EOLhyphen"/>cloſed. So alſo if two Bodies being tyed together, are equally agitated towards different places, it muſt needs happen, that theſe two oppoſite Bodies do move circularly about the point which is in the midſt of them: And thus it is, that a Fuſee, or a Whirligig, continue to move in a Circle; becauſe
+<pb n="22" facs="tcp:40882:20"/> the oppoſite parts being faſtened and united among themſelves, and beſides moved by ones fingers two different ways, one, one way, and the other, another way; this Fuſee muſt needs move about it ſelf. And then, if theſe oppoſite parts are mov'd unequally, ſo that the one be carried a little faſter one way; then this Body, beſides its circular Motion about it ſelf, will have another Motion, which will carry it altogether in ſome different Lines, ac<g ref="char:EOLhyphen"/>cording to the diverſity and combina<g ref="char:EOLhyphen"/>tion of theſe Determinations. And thus it is, that a Whirligig deſcribeth by its <hi>Axis</hi> upon a Table divers figures enterlaced, whilſt it moveth with an incredible ſwiftneſs about its own Center.</p>
+            </div>
+            <div n="16" type="chapter">
+               <pb n="23" facs="tcp:40882:20"/>
+               <head>
+                  <hi>XVI.</hi> One Body moving against another Body giveth it its whole Motion.</head>
+               <p>NOw let us take a Body moving in a ſtraight Line, and encountering another, and ſee, what will become of theſe two Bodies.</p>
+               <p>
+                  <hi>Firſt,</hi> In regard that Bodies are im<g ref="char:EOLhyphen"/>penetrable, 'tis impoſſible the Body A ſhould move, but that the Body B<note place="margin">Fig. 3.</note> hitting againſt it will move alſo; be<g ref="char:EOLhyphen"/>cauſe that otherwiſe theſe two Bodies would penetrate one another: And as I elſewhere ſuppoſe, that the Body B is there altogether indifferent, either to remain quieſcent, or to take that Mo<g ref="char:EOLhyphen"/>tion that may be given it; aſſoon as the Body A ſhall come to hit againſt it, it will determin it alſo to a like Motion: And ſo, there being no impediment, this Body B will take full as much Mo<g ref="char:EOLhyphen"/>tion as the Body A had, and paſs to<g ref="char:EOLhyphen"/>wards the ſame place, in the ſame Line,
+<pb n="24" facs="tcp:40882:21"/> with the ſame celerity; and all this for the ſame reaſon, to wit, becauſe the Bodies being impenetrable, and the Body <hi>a</hi> tending to move towards <hi>b,</hi> and then the Body B meeting there with an abſolute indifferency, and free from all impediment; 'tis evident, that the Body B muſt move towards <hi>b</hi> with the ſame celerity, that the Body <hi>a</hi> did move towards the ſame place. And thus it ſeems, that there is no more difficulty to underſtand, that naturally a Body can move another Body, than there is to conceive, that two Bodies are impene<g ref="char:EOLhyphen"/>trable, and that one Body in its Motion may meet another.</p>
+            </div>
+            <div n="17" type="chapter">
+               <head>
+                  <hi>XVII.</hi> In the meeting of two Bo<g ref="char:EOLhyphen"/>dies there is made a percuſſion, which is mutual, and equally received in both.</head>
+               <p>
+                  <hi>NExt,</hi> It is to be conſider'd, that in this encounter of two Bodies
+<pb n="25" facs="tcp:40882:21"/> there is made a certain <hi>percuſſion,</hi> which is nothing elſe but a ſhock or hitting of two Bodies, which meeting do hin<g ref="char:EOLhyphen"/>der one another by their impenetrabi<g ref="char:EOLhyphen"/>lity. But although very often there be but one Body moving and ſtriking, whilſt the other remains moveleſs and receives the ſtroke; yet notwithſtanding, the percuſſion is always mutual and equally received by both Bodies: So that as much as the Body <hi>a</hi> ſtriketh the Body B, ſo much is it ſtruck it ſelf. Which we may eaſily conceive, if we<note place="margin">Fig. 3.</note> ſuppoſe, that theſe two Bodies are alto<g ref="char:EOLhyphen"/>gether like in bulk, ſhape, and hard<g ref="char:EOLhyphen"/>neſs, and if beſides we imagin them to have feeling, and capable to reſent pain when they are ſtruck: For then it is manifeſt, that the Body <hi>a</hi> coming to hit againſt B, will it ſelf feel as much pain as the Body B; as we ſee, that a hand ſtriking another hand, does as much hurt to it ſelf as it doth to the o<g ref="char:EOLhyphen"/>ther, if <hi>that</hi> be as tender. The ſame is alſo to be underſtood, if you ſuppoſe, that there are two Nails, altogether equal, half fixed, the one to the Bo<g ref="char:EOLhyphen"/>dy
+<pb n="26" facs="tcp:40882:22"/> 
+                  <hi>a,</hi> and the other to the Body B, and that in the Motion of the Body <hi>a</hi> a<g ref="char:EOLhyphen"/>gainſt B the two heads of the Nails do meet; for then we conceive, that in this percuſſion theſe two Nails are ſtruck deeper in; and that there is no reaſon to make us believe, the Nail B ſhould be ſunk deeper than <hi>a:</hi> On the con<g ref="char:EOLhyphen"/>trary, ſince both the Nails are equal, and equally ſharp, and the Bodies e<g ref="char:EOLhyphen"/>qually hard, without any other diffe<g ref="char:EOLhyphen"/>rence; the two Nails muſt needs equally be ſtruck in, and the one as much fixed as the other. Thus we may make it a general Maxim; <hi>That when two Bo<g ref="char:EOLhyphen"/>dies are ſtruck, the percuſſion is mutual and equal on both ſides.</hi>
+               </p>
+            </div>
+            <div n="18" type="chapter">
+               <head>
+                  <hi>XVIII.</hi> A moving Body, meeting with another Body that is qui<g ref="char:EOLhyphen"/>eſcent, gives it all its Motion, and remains it ſelf moveleſs.</head>
+               <p>LEt us reſume our Example. The Body A is mov'd with one degree
+<pb n="27" facs="tcp:40882:22"/> of velocity towards <hi>a;</hi> and there it meets in a ſtraight Line the Body B, and by the percuſſion communicates to it its Motion, which will carry the Body B with one degree of velocity towards <hi>b,</hi> according to what hath been demonſtrated in § 16. Since there<g ref="char:EOLhyphen"/>fore the percuſſion, which the Body B receiveth, is of one degree, that is,<note place="margin">Fig. 3.</note> capable to carry the Body B with one degree of celerity towards <hi>b;</hi> it muſt needs be, that the percuſſion, which the Body <hi>a</hi> receiveth at the ſame time, be alſo of one degree, that is, be able to carry the Body <hi>a</hi> with one degree of celerity toward the oppoſite parts, namely, towards A. (For theſe per<g ref="char:EOLhyphen"/>cuſſions ſtrike and drive the two Bodies toward the oppoſite places, the one, towards <hi>b,</hi> the other, towards A.) And as the Body <hi>a</hi> had already one degree of impetuoſity or ſwiftneſs to go towards <hi>b;</hi> and that now it re<g ref="char:EOLhyphen"/>ceiveth ſuch another to return towards A; this Body muſt needs remain move<g ref="char:EOLhyphen"/>leſs at the Point <hi>a,</hi> without going for<g ref="char:EOLhyphen"/>wards or backwards, foraſmuch as it
+<pb n="28" facs="tcp:40882:23"/> is equally driven toward the oppoſite places. Thus in this percuſſion the Body <hi>a</hi> gives its motion and celerity to the Body B, and mean while remains it ſelf moveleſs.</p>
+            </div>
+            <div n="19" type="chapter">
+               <head>
+                  <hi>XIX.</hi> What is meant by abſolute and reſpective velocity.</head>
+               <p>NOw let us ſuppoſe, that the two Bodies move towards one another in the ſame Line; the one, from <hi>b</hi> with one degree of celerity towards B; the other, from A with the ſame degree of celerity towards <hi>a,</hi> where they meet; and let us ſee, what will follow. The percuſſion will here not only be of one degree, but of two; and to underſtand this, we are to diſtinguiſh between the <hi>abſol<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>te</hi> and <hi>reſp<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ctive</hi> velocity of a Body. I call that <hi>abſolute</hi> velocity, which is conſider'd in a Body compared with the Space wherein it moveth; and <hi>reſ<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ctive,</hi> that which is conſidered in two Bodies compared together, by
+<pb n="29" facs="tcp:40882:23"/> which velocity theſe two Bodies mu<g ref="char:EOLhyphen"/>tually approach to, or recede from, one another. As in our Example: If we conſider the Body <hi>b,</hi> comparing it to<note place="margin">Fig. 3.</note> the Space, <hi>for Example,</hi> of one Foot, which it moveth in one Minute; <hi>that</hi> ſhall be call'd one degree of <hi>abſolute</hi> celerity; but if we compare it with the Body A, which is mov'd on its part towards <hi>a</hi> with the ſame degree of <hi>abſolute</hi> celerity, paſſing alſo one foot through, in one minute; then the <hi>re<g ref="char:EOLhyphen"/>spective</hi> celerity of both will be of two degrees; becauſe they mutually ap<g ref="char:EOLhyphen"/>proach one another with this celerity, and make in one minute two feet, by which they were before diſtant from one another.</p>
+            </div>
+            <div n="20" type="chapter">
+               <head>
+                  <hi>XX.</hi> The Percuſſions are as the re<g ref="char:EOLhyphen"/>ſpective Velocities.</head>
+               <p>NOw the force of the Percuſſion is to be meaſur'd, not by the <hi>abſo<g ref="char:EOLhyphen"/>lute,</hi> but the <hi>reſpective</hi> Velocity; be<g ref="char:EOLhyphen"/>cauſe
+<pb n="30" facs="tcp:40882:24"/> the percuſſion proceeds only, as we have ſaid, from the impenetrability of two Bodies, which mutually ap<g ref="char:EOLhyphen"/>proaching one another do hinder their firſt Motion, and receive alſo new im<g ref="char:EOLhyphen"/>preſſions. Whence it appears alſo, that the percuſſion will be ſo much the greater, by how much ſwifter that mu<g ref="char:EOLhyphen"/>tual approach ſhall be made. So that the <hi>Percuſſions are always as the re<g ref="char:EOLhyphen"/>ſpective Velocities, caeteris omnibus pa<g ref="char:EOLhyphen"/>ribus.</hi> Thus two Bodies approaching, each with one degree of abſolute ce<g ref="char:EOLhyphen"/>lerity, and making each a foot on its part in one minute; 'tis manifeſt, that the percuſſion, which each Body will receive in <hi>a</hi> B, will be the ſame, that it would be, if one had remained move<g ref="char:EOLhyphen"/>leſs<note place="margin">Fig. 3.</note> in A, until the other were come forth from <hi>b</hi> to A with two degrees of <hi>abſolute</hi> celerity, making in one mi<g ref="char:EOLhyphen"/>nute both the two feet, that are from <hi>b</hi> unto A: Foraſmuch as the <hi>reſpective</hi> celerities are ſtill the ſame, <hi>whether</hi> we ſuppoſe, that whilſt the one remains moveleſs in A, the other is mov'd with two degrees of <hi>abſolute</hi> celerity, and
+<pb n="31" facs="tcp:40882:24"/> maketh both the feet in one minute; <hi>or,</hi> that both Bodies move, by approach<g ref="char:EOLhyphen"/>ing to one another, each with one only degree of velocity; ſo that in one mi<g ref="char:EOLhyphen"/>nute they ſhall have made by their ap<g ref="char:EOLhyphen"/>proach both the feet, that were betwixt them at the beginning of the minute.</p>
+            </div>
+            <div n="21" type="chapter">
+               <head>
+                  <hi>XXI.</hi> Two Bodies meeting one an<g ref="char:EOLhyphen"/>other, turn back, making an ex<g ref="char:EOLhyphen"/>change of their velocity.</head>
+               <p>IT being therefore certain, that the percuſſion, which is made in this en<g ref="char:EOLhyphen"/>counter, is of two degrees; and that each of theſe Bodies receiveth in this ſhock an impreſſion, that would carry them with two degrees of velocity to<g ref="char:EOLhyphen"/>wards the oppoſite places; that is to ſay, that the Body <hi>a</hi> receiveth a ſtroke, which would carry it towards A with two degrees of velocity; and that the<note place="margin">Fig. 3.</note> Body B receiveth likewiſe one, which would carry it with the ſame two de<g ref="char:EOLhyphen"/>grees of velocity towards <hi>b:</hi> It muſt
+<pb n="32" facs="tcp:40882:25"/> of neceſſity be, that the Body <hi>a</hi> turn only back with one degree of celerity towards A, becauſe it is carryed by two impreſſions unequal and altogether contrary; by one, of two degrees, towards A, which it receiveth in the percuſſion; by the other, of one de<g ref="char:EOLhyphen"/>gree, towards <hi>b,</hi> which it had before; and ſo there remaineth to it only one free degree of impreſſion and celerity, which carrieth it towards A. And likewiſe B will be carried towards <hi>b</hi> with one degree alſo of celerity; ſo that both turn back in the ſame Line with the ſame ſwi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tneſs they came. If we ſuppoſe, that the one advanceth with more celerity than the other; <hi>for Example,</hi> that A moveth with one de<g ref="char:EOLhyphen"/>gree and an half of celerity, running one foot and an half in one minute, and that <hi>b</hi> moveth with half a degree of celerity, running half a foot only; then, the percuſſion being of two de<g ref="char:EOLhyphen"/>grees as well as in the precedent caſe, ſince the reſpective celerity is the ſame, although the abſolute ones are different, each Body muſt receive two degrees
+<pb n="33" facs="tcp:40882:25"/> of impreſſion and celerity to turn back; and by conſequence, the Body B, which had half a degree only of celerity, will return towards A with one degree and an half; whereas <hi>a,</hi> which for<g ref="char:EOLhyphen"/>merly had one degree and an half, will return towards <hi>b</hi> with half a degree only. And after this manner it may be proved, <hi>That two Bodies, moving to<g ref="char:EOLhyphen"/>wards one another in a ſtraight Line, turn both backward, after their encoun<g ref="char:EOLhyphen"/>ter, by making an exchange of their velocities.</hi>
+               </p>
+            </div>
+            <div n="22" type="chapter">
+               <head>
+                  <hi>XXII.</hi> Two Bodies moving towards the ſame places, continue after their encounter by exchanging their velocities.</head>
+               <p>IF the two Bodies move towards the ſame places in a ſtraight Line, ſo that the ſloweſt, moving firſt, be at laſt o<g ref="char:EOLhyphen"/>vertaken by that which moveth faſter after it; then both will continue to move in the ſame Line towards the ſame
+<pb n="34" facs="tcp:40882:26"/> place, but they will exchange their ve<g ref="char:EOLhyphen"/>locities. Let the Body A be moved with two degrees of velocity towards <hi>b,</hi> making in one minute two feet as far as to a. At the ſame time let the Body<note place="margin">Fig. 4.</note> B be moved in the ſame Line with one degree of celerity, making only one foot as far as to b, and that there it be overtaken by the Body a. The force of the percuſſion being meaſured, as I have ſhew'd, by the <hi>reſpective</hi> celerity; this percuſſion muſt here be but of one degree, becauſe the reſpective celerity is but of one degree, ſeeing that theſe two Bodies do not approach one an<g ref="char:EOLhyphen"/>other but with this degree of celerity, and that in one minute they make, the one in reſpect of the other, but one foot of ſpace, which was betwixt both at the beginning. Now, ſince the Bo<g ref="char:EOLhyphen"/>dy <hi>b</hi> had, before, one degree of celeri<g ref="char:EOLhyphen"/>ty, which carried it towards <hi>a,</hi> and that now in the percuſſion it receiveth another towards the ſame places; it muſt move with two degrees and make two feet as far as to <hi>b;</hi> whereas the Body <hi>a,</hi> which before had two degrees
+<pb n="35" facs="tcp:40882:26"/> of velocity towards <hi>b,</hi> and receiveth now one, to turn back towards B, is conſtrained to go towards <hi>a</hi> with one degree of velocity.</p>
+            </div>
+            <div n="23" type="chapter">
+               <head>
+                  <hi>XXIII.</hi> An hard Body coming to hit another Body that cannot be ſhaken, is reflected with its whole Motion.</head>
+               <p>IF the Body, which is ſtruck, be al<g ref="char:EOLhyphen"/>together unſhakeable, we muſt ſee, what force the percuſſion will have, and what will become of the percutient Bo<g ref="char:EOLhyphen"/>dy. Let us ſuppoſe, that the Body A do move with one degree of velocity towards a, and that there it meet the<note place="margin">Fig. 5.</note> Body b, indifferent to move, yet ſo as that betwixt both there be found a plate or a ſurface indifferent in it ſelf to Reſt or Motion, but yet impenetrable. In this caſe, the Body a, ſtriking this plate, ſtriketh alſo thereby the Body b, which is met with cloſe behind it: And as I elſewhere ſuppoſe, that this plate
+<pb n="36" facs="tcp:40882:27"/> maketh no reſiſtance at all, but only in being impenetrable; it is manifeſt (by what hath been proved in § 18.) that in this encounter the Body a remains moveleſs in a, and that as well the plate, as the Body b, doth move towards B with one degree of velocity. But if we ſup<g ref="char:EOLhyphen"/>poſe, that when A comes to ſtrike the plate in a, at the ſame time B alſo ſtri<g ref="char:EOLhyphen"/>keth it in b; this plate will remain moveleſs, in regard it is ſtruck equally from both the oppoſite ſides, and each Body will turn back with its degree of celerity, wherewith it came. For, as I have ſaid, theſe two Bodies ſtrike one another, notwithſtanding this plate, as if there were nothing betwixt them: But if there were nothing betwixt them, they would reflect with their ſame de<g ref="char:EOLhyphen"/>gree of velocity, as hath been prov'd § 21. And ſo, although this plate be there, they will not the leſs be refle<g ref="char:EOLhyphen"/>cted. Now let us conſider, that this ſame plate, being impenetrable, be moreover quite firm, ſo as to be un<g ref="char:EOLhyphen"/>ſhakeable and inflexible; and let us move as before the two Bodies A
+<pb n="37" facs="tcp:40882:27"/> and B ſo as they may ſtrike it at the ſame time in a and b: I ſay, that after this ſhock each Body muſt reflect with the ſame degree of velocity; becauſe if the plate had been indifferent, and not firm, they would have reflected, and this plate been moveleſs: But the ſame effect muſt follow, though we ſuppoſe, that this plate be of it ſelf moveleſs, firm, and unſhakeable, in regard that either way it remains without any kind of Action or Motion. If laſtly we ſuppoſe, that the ſole Body A moveth towards a, and hits the plate faſtened and beyond ſhaking, it muſt then alſo be ſaid, that the Body a turns back to<g ref="char:EOLhyphen"/>wards A; becauſe it would return, if at the ſame time the Body B had come to hit in b; therefore it reflecteth alſo, when the Body B does not come, be<g ref="char:EOLhyphen"/>cauſe the plate being unſhakeable, cau<g ref="char:EOLhyphen"/>ſeth ſtill the ſame effect in reſpect of the Body a, whether b ſtrike it or not. And thus you ſee, how it is demonſtra<g ref="char:EOLhyphen"/>ted, <hi>That an hard Body coming to hit another Body that is hard, inflexible, and unſhakeable, is reflected with all its</hi>
+                  <pb n="38" facs="tcp:40882:28"/> 
+                  <hi>Motion.</hi> Which I think no Man hath yet demonſtrated.</p>
+            </div>
+            <div n="24" type="chapter">
+               <head>
+                  <hi>XXIV.</hi> The Angle of Reflection is equal to the Angle of Incidence.</head>
+               <p>HItherto we have always ſuppoſed, that the percuſſions are made alto<g ref="char:EOLhyphen"/>gether direct: Let us now ſee, what will happen, when the Bodies ſtrike one another obliquely. And to make this to be more clearly underſtood, I ſhall ſtill employ Balls or flat Bodies; and it will afterwards be very eaſie to underſtand what ſhall happen in Bodies that have Figures leſs regular. Let the Ball A be moved toward a, ſtriking<note place="margin">Fig. 6.</note> obliquely the unſhakeable Body B. Through the Point of contact let a ſtraight Line be drawn <hi>e d,</hi> then a pa<g ref="char:EOLhyphen"/>rallel A <hi>c a,</hi> the perpendiculars A <hi>e,</hi> a <hi>c,</hi> next <hi>c a</hi> or B <hi>d</hi> equal to <hi>c</hi> A, or to B <hi>c.</hi> I ſay, that the Ball will turn back by the Line a <hi>a,</hi> ſo as the Angle of Reflection <hi>a</hi> a <hi>d</hi> is always equal to
+<pb n="39" facs="tcp:40882:28"/> the Angle of Incidence A a <hi>e.</hi> For proof, let us conſider, that the Ball A receives at once two ſtrokes or impreſ<g ref="char:EOLhyphen"/>ſions; one, driving it towards <hi>e</hi> with<note place="margin">Fig. 7.</note> one degree of velocity, and the other towards <hi>c</hi> with two degrees; it muſt then move in the diagonal A a, and there hit the Body B. But the force of percuſſion will be but of one degree, becauſe the percuſſion is only made, as I have often ſaid, by the impenetrabi<g ref="char:EOLhyphen"/>lity of the two Bodies hindring their Motion. But the Motion which car<g ref="char:EOLhyphen"/>rieth the Ball towards <hi>c</hi> a, is not at all hindred by the Body B. There is but the Motion, which carried the Body A towards <hi>e</hi> B, that is hindred by the Body B, and conſequently all the force of this percuſſion is meaſured by this <hi>reſpective</hi> velocity, which ma<g ref="char:EOLhyphen"/>keth the Body A approach towards the Line <hi>e</hi> B. In this caſe alſo, the percuſſi<g ref="char:EOLhyphen"/>on is the ſame, as if the Body A had only moved from <hi>c</hi> to a with this ſole degree of celerity; and ſo in the per<g ref="char:EOLhyphen"/>cuſſion it muſt turn back with the ſame degree of ſwiftneſs, and be carried
+<pb n="40" facs="tcp:40882:29"/> towards <hi>c a,</hi> as before it was carried towards <hi>e</hi> B, whilſt the other Motion remains all entire towards <hi>a d.</hi> Whence it follows, that the Ball reflecteth in the Line a <hi>a.</hi>
+               </p>
+            </div>
+            <div n="25" type="chapter">
+               <head>
+                  <hi>XXV.</hi> It may be imagined, that tbe oblique Motion is compoſed of two Motions.</head>
+               <p>BEcauſe this is important, it will be worth while to explain it yet after another manner. Let us imagin the Body B moveleſs; and another Body A <hi>a,</hi> moving parallel betwixt the Lines A <hi>c, a d,</hi> and hitting the moveleſs Bo<g ref="char:EOLhyphen"/>dy:<note place="margin">Fig. 8.</note> Then (according to what hath been already proved in § 23.) this Bo<g ref="char:EOLhyphen"/>dy will be reflected wholly towards A <hi>a</hi> with its ſame velocity. Beſides, let us imagin, that this Body is hollow Channel-wiſe, and that in this Channel there is a Ball rolling from A towards <hi>a,</hi> in ſuch a manner that in the ſame time, wherein the whole Body moveth
+<pb n="41" facs="tcp:40882:29"/> from A <hi>a</hi> unto the moveleſs Body B, the Ball maketh in its Channel the way A <hi>c.</hi> Thus, whilſt the whole Body ſhall turn back after the percuſſion, the Ball ſhall continue to move in its Chan<g ref="char:EOLhyphen"/>nel from <hi>c</hi> towards <hi>a</hi> with its ſame velo<g ref="char:EOLhyphen"/>city. But the true way, which this Ball ſhall have made, will be A a <hi>a,</hi> ſo as the Angle of Reflection will be equal to the Angle of Incidence; in regard that as well the Lines A <hi>c, c a,</hi> as A <hi>e, d a,</hi> are equal. But it is manifeſt, that the ſame percuſſion, and conſequently the ſame reflection would be made, if the Ball had hit immediately coming from A to a, than if it were the Channel A <hi>a</hi> that had hit, whilſt the Ball had rolled in the Channel without any in<g ref="char:EOLhyphen"/>terruption. Whence we may conclude, that in all <hi>oblique</hi> Motion when one Body hits another obliquely, we may diſtinguiſh as 'twere two Motions; one, which we ſhall call <hi>perpendicular,</hi> which carrieth it to hit the Body, and which receiveth a change in the per<g ref="char:EOLhyphen"/>cuſſion; the other, <hi>lateral,</hi> by which the Body only ſlideth againſt the other
+<pb n="42" facs="tcp:40882:30"/> without hitting it, and which by con<g ref="char:EOLhyphen"/>ſequence remains entire after the per<g ref="char:EOLhyphen"/>cuſſion. Here the perpendicular Mo<g ref="char:EOLhyphen"/>tion is that, which carrieth the Ball towards <hi>e d,</hi> whoſe velocity is mea<g ref="char:EOLhyphen"/>ſured by the perpendicular A <hi>e;</hi> and the lateral Motion is meaſured by the parallel A <hi>c,</hi> which continueth after the percuſſion towards <hi>c a.</hi>
+               </p>
+            </div>
+            <div n="26" type="chapter">
+               <head>
+                  <hi>XXVI.</hi> A Remark upon the Ar<g ref="char:EOLhyphen"/>gument of <hi>P. Riccioli.</hi>
+               </head>
+               <p>I Cannot hold to make here two re<g ref="char:EOLhyphen"/>marks on the occaſion of the ob<g ref="char:EOLhyphen"/>lique percuſſion. One is, touching the Argument, which one of the greateſt Men of our Age maketh to decide the <hi>Queſtion</hi> about the <hi>Motion of the Earth.</hi> He pretends, that if heavy Bodies did deſcend by a Curve Line, ſuch as <hi>Galileo</hi> deſcribeth, the percuſſi<g ref="char:EOLhyphen"/>ons of heavy Bodies would not be made, as we ſee they are. For, accor<g ref="char:EOLhyphen"/>ding as a Body falls from a greater
+<pb n="43" facs="tcp:40882:30"/> height, it ſtriketh the more forcibly, ſo as the percuſſion will be ten or twenty times ſtronger of a fall of a hundred or four hundred times the height: Mean time in the <hi>Hypotheſis,</hi> which this Author, of whom I ſpeak, oppoſeth, the force of the percuſſion ſhould be, thinks he, always the ſame, at leaſt there would be no ſenſible difference, what difference ſoever there ſhould be found in the heights of the deſcents; becauſe the heavy Body would go in this Curve Line with an almoſt uniform velocity: And the force of the percuſſions being always proportionate to the velocity, he concludes, that the velocities being always equal in what hight ſoever it be, the percuſſions would be ſo too. But this Argument is not concluding, becauſe, the celerity remaining always the ſame, the percuſſions may diminiſh if they be made obliquely: And if we con<g ref="char:EOLhyphen"/>ceive, that the Bullets <hi>a, b, c,</hi> hit the Wall in <hi>d,</hi> all with the ſame celerity, but ſome more obliquely than others, the percuſſion certainly of that Bullet which hits more directly will be the
+<pb n="44" facs="tcp:40882:31"/> greateſt; and the force of theſe ob<g ref="char:EOLhyphen"/>lique percuſſions is meaſured, as I have ſhew'd, by the perpendiculars <hi>c e, b f, a g.</hi> So that the Bullet <hi>c</hi> may hit ſo ob<g ref="char:EOLhyphen"/>liquely, that it ſhall only graze along the<note place="margin">Fig. 9.</note> Wall without having any conſiderable effect. Thus although the weights, which are ſuppoſed to fall in a Curve Line, ſhould be moved in almoſt an uniform velocity, yet they would for all that hit more forcibly, falling from a grea<g ref="char:EOLhyphen"/>ter height, becauſe then the percuſſion would be more direct: And in effect if one ſhall go to make the calculation of it (which is very eaſie to do even upon that, which this Author hath made in <hi>Aſtronomia Reformata)</hi> it will be found, that the obliquity of theſe Mo<g ref="char:EOLhyphen"/>tions is always fully that, which is re<g ref="char:EOLhyphen"/>quiſite to make that diverſity, which we ſee in the percuſſions of falling Bodies.</p>
+            </div>
+            <div n="27" type="chapter">
+               <pb n="45" facs="tcp:40882:31"/>
+               <head>
+                  <hi>XXVII.</hi> A Remarque upon ſome Citadels.</head>
+               <p>THe other Remarque is upon what I have ſeen in ſome of our <hi>Citadels,</hi> where thoſe that have raiſed them have preferr'd the pleaſingneſs to the Eye before the ſtrength of the Walls, when inſtead of making them all even and plain, they have diverſified them with many Ornaments of Stones advancing above others; and beſides, have cut each Stone Diamond-wiſe, or at leaſt have made a Brim therein by notching them round about; ſo as the joyning Stones leave betwixt them an hollowneſs after the manner of rural Archirecture: I ſay, that however all this variety may pleaſe the Eye, it is diſadvantageous for Defence. For, theſe ſinkings and ſallies of Stones give to the oblique Bat<g ref="char:EOLhyphen"/>teries of Guns the ſame advantage and the ſame force, which direct Batteries have: So that a Bullet, which coming
+<pb n="46" facs="tcp:40882:32"/> ſide-ways would only graze along the Wall, if it were all flat and even, when it ſhall meet the ſallies of thoſe advan<g ref="char:EOLhyphen"/>cing ſtones, will have the ſame effect, and make as great a breach, as if it had hit direct perpendicularly; and even a greater, becauſe it will be more eaſie, thus ſlopingly to carry away a ſtone, which giving hold-faſt to a Bullet is not ſupported by the others, than it would be, if it had been ſtruck directly againſt the thickneſs of the Wall. But let us return to our ſubject.</p>
+            </div>
+            <div n="28" type="chapter">
+               <head>
+                  <hi>XXVIII.</hi> A general Rule of all Per<g ref="char:EOLhyphen"/>cuſſions.</head>
+               <p>AFter we have made this diſtinction of two Motions in the <hi>oblique</hi> Mo<g ref="char:EOLhyphen"/>tion, 'tis eaſie to make a <hi>General Rule,</hi> explaining all the Effects of Percuſſi<g ref="char:EOLhyphen"/>ons. You may here ſee the Propoſi<g ref="char:EOLhyphen"/>tion,<note place="margin">Fig. 10, 11, 12, 13, 14, 15, 16.</note> together with the Figures, which expreſs all the poſſible Caſes of <hi>oblique</hi> Percuſſions, and even of the direct
+<pb n="47" facs="tcp:40882:32"/> ones, when the Bodies are not unſhake<g ref="char:EOLhyphen"/>able. Let the Body A be moved to<g ref="char:EOLhyphen"/>wards a with the velocity of A a, and the Body B with the velocity of B b in the Line B b; or let one of the two be moveleſs, ſo as B b be but a point. Let the encounter be in a b. Joyn the Centers by the Line a b, continued both ways, if need be. Let there be drawn the perpendiculars A <hi>c,</hi> B <hi>d.</hi> We may here diſtinguiſh two Motions in each Ball; the one <hi>perpendicular,</hi> as if the Body A had moved from <hi>c</hi> unto a, and the Body B from <hi>d</hi> unto <hi>b:</hi> the other is the <hi>lateral,</hi> which carries the Body A towards <hi>c,</hi> and the Body B towards <hi>d,</hi> and this lateral remains entire after the percuſſion in both Bodies; whereas, the whole percuſſion being made by perpendicular Motions, theſe perpen<g ref="char:EOLhyphen"/>dicular Motions muſt be changed accor<g ref="char:EOLhyphen"/>ding to what hath been demonſtrated, that is, the Body b will take the per<g ref="char:EOLhyphen"/>pendicular Motion and velocity <hi>c</hi> a, and the Body a will take the velocity and Motion <hi>d</hi> b. Let therefore be drawn the Line a <hi>e</hi> equal and parallel to A <hi>c,</hi>
+                  <pb n="48" facs="tcp:40882:33"/> and the Line <hi>e a</hi> equal and parallel to <hi>d</hi> b; I ſay, that the Body a ſhall move, after the percuſſion, in the Line a <hi>a</hi> with the velocity a <hi>a.</hi> Likewiſe let there be drawn <hi>b f</hi> equal and parallel to B <hi>d,</hi> and the Line <hi>f b</hi> equal and parallel to <hi>c</hi> a; I ſay, that the Body b ſhall move, in the Line b <hi>b</hi> with the velocity b <hi>b;</hi> and this needs no new proof.</p>
+            </div>
+            <div n="29" type="chapter">
+               <head>
+                  <hi>XXIX.</hi> There is always equal quan<g ref="char:EOLhyphen"/>tity of <hi>reſpective</hi> Motion.</head>
+               <p>IT is to be obſerved, that 'tis not true, that there is always as much <hi>abſolute</hi> Motion after the percuſſion, as there was before. But 'tis eaſie to demon<g ref="char:EOLhyphen"/>ſtrate, that the <hi>reſpective</hi> Motion is always the ſame; ſo that the Bodies recede one from another <hi>after</hi> the per<g ref="char:EOLhyphen"/>cuſſion, as faſt as they approached <hi>be<g ref="char:EOLhyphen"/>fore</hi> it. Thus taking two equal times <hi>before</hi> and <hi>after</hi> percuſſion, the diſtance A B is always the ſame to the diſtance <hi>a b.</hi> And after I ſhall have alſo ex<g ref="char:EOLhyphen"/>plained
+<pb n="49" facs="tcp:40882:33"/> the Motions made in <hi>pleno,</hi> I believe it would be eaſie to me to prove, that having a reſpect generally to all the Bodies that are in the whole World, there is at preſent as much <hi>reſpective</hi> Motion, neither more nor leſs, than there was in the beginning of the Cre<g ref="char:EOLhyphen"/>ation of the Univerſe.</p>
+            </div>
+            <div n="30" type="chapter">
+               <head>
+                  <hi>XXX.</hi> The midst of two Bodies is always uniformly moved in a direct Line.</head>
+               <p>IT is alſo to be obſerved, that the point of the middle between two Bo<g ref="char:EOLhyphen"/>dies is always moved uniformly in a direct Line, drawing without any in<g ref="char:EOLhyphen"/>terruption towards the ſame places. Thus taking two equal times, <hi>before</hi> and <hi>after</hi> percuſſion, and ſuppoſing that o is the point of the middle between the two Bodies <hi>at the time</hi> of the per<g ref="char:EOLhyphen"/>cuſſion; and O being alſo the middle of the two Bodies <hi>before</hi> the percuſſi<g ref="char:EOLhyphen"/>on, as <hi>o</hi> is <hi>after;</hi> O <hi>o o</hi> will be in a
+<pb n="50" facs="tcp:40882:34"/> ſtraight Line, and O o will be equal to o <hi>o:</hi> Which I ſtay not to demonſtrate, though that may be done Geometri<g ref="char:EOLhyphen"/>cally.</p>
+            </div>
+            <div n="31" type="chapter">
+               <head>
+                  <hi>XXXI.</hi> All theſe Rules are true, whether the Bodies be equal, or not.</head>
+               <p>IT will perhaps be wondred, that in all the preceding Rules I have not made any mention of the <hi>Equality</hi> or <hi>Inequality</hi> of the Bodies, that ſtrike one another. And it ſeems at firſt, that, to verifie what I have been ſaying, I muſt ſuppoſe the Bodies to be perfectly Equal: For, if the one be bigger than the other, all thoſe Rules muſt vary; and experience ſheweth, that a great Body ſtriking a leſſer that was before quieſcent, the great Body ceaſeth not from continuing to move after the ſhock, though it moveth more ſlow<g ref="char:EOLhyphen"/>ly, and quite contrarily, if it be the leſſer Body that ſtriketh, it re<g ref="char:EOLhyphen"/>flecteth
+<pb n="51" facs="tcp:40882:34"/> with a part of its velocity. But if I have here omitted to diſtinguiſh theſe Caſes of Equality and Inequality of Bodies, I have done it with conſi<g ref="char:EOLhyphen"/>deration: I have all along confounded the Velocity and the Motion, and I de<g ref="char:EOLhyphen"/>ſigned to give the Reader to underſtand, that all theſe Rules are true, whether the Bodies be Equal or not. And if notice be taken of the force of the rea<g ref="char:EOLhyphen"/>ſon, alledged by me in § 16. it is always the ſame, although the Bodies be of different Magnitudes. For, the Body ſtruck being altogether indifferent to remain at Reſt or to take Motion, and the whole effect of the percuſſion pro<g ref="char:EOLhyphen"/>ceeding from the impenetrability of Bodies; if we ſuppoſe the Body ſtruck to be greater, provided that all the parts thereof be well united together, it muſt move with the ſame velocity, with which the Body ſtriking moveth, by the ſame reaſon, it doth ſo when they are equal, that is, becauſe they are impenetrable, and the Body percutient cannot move forwards, unleſs the Body percuſſed, which is before, take all its
+<pb n="52" facs="tcp:40882:35"/> velocity: And as otherwiſe the Greater is as indifferent, as the Equal Body, for Reſt and Motion, certainly the Greater will make no more reſiſtance than the Equal, foraſmuch as neither of them will make not the leaſt of all. If Ex<g ref="char:EOLhyphen"/>perience ſhews the contrary, 'tis be<g ref="char:EOLhyphen"/>cauſe the Motion of Bodies, which we ſee, are not made in <hi>vacuo,</hi> as we have hitherto ſuppoſed, but they are moved in a ſpace filled with ſome fluid Body, ſuch as the Air or ſome other yet more ſubtil ſubſtance. Now there<g ref="char:EOLhyphen"/>fore we are to conſider the Motion which is made of <hi>ſolid</hi> Bodies in a <hi>fluid</hi> ſubſtance.</p>
+            </div>
+            <div n="32" type="chapter">
+               <head>
+                  <hi>XXXII.</hi> A Body moveth in <hi>pleno</hi> as freely as in <hi>vacuo.</hi>
+               </head>
+               <p>IF this ſubſtance be perfectly <hi>fluid,</hi> that is, if all its parts, as well ſmall as great, are flexible and liquid; if beſides, this ſame ſubſtance be perfect<g ref="char:EOLhyphen"/>ly full, ſo as it cannot be condenſed or
+<pb n="53" facs="tcp:40882:35"/> rarifi'd, as a Sponge is compreſſed or dilated by reaſon of its pores; if laſt<g ref="char:EOLhyphen"/>ly it be encloſed in ſome place, whence it cannot at all iſſue: Then an <hi>Hard</hi> Body, that ſhall have begun to move in the midſt of this Liquor, will con<g ref="char:EOLhyphen"/>tinue to doe it as freely as in <hi>vacuo,</hi> and will go to the extremities of the Liquor, where meeting with a firm un<g ref="char:EOLhyphen"/>ſhakeable Body, it is reflected with the ſame velocity, and ſo it will move forever. The reaſon of it is, that when an hard Body moveth in a liquid ſub<g ref="char:EOLhyphen"/>ſtance, there is made a reflection of impetuoſity, which communicateth it ſelf in a moment to all the parts of the Liquor, in ſuch a manner that the Bo<g ref="char:EOLhyphen"/>dy moving driveth all the parts of the Liquor, that are found before it, and ſo it ſhould ſtop, if nothing elſe did ſurvene (by § 18.) But theſe parts of the Liquor being thruſt, do thruſt o<g ref="char:EOLhyphen"/>thers, and ſo on to the extreme, where is made a reflection, by which the parts that are found <hi>after</hi> the <hi>hard</hi> Body, are thruſt with the ſame force to follow this ſame Body: Becauſe, all the Li<g ref="char:EOLhyphen"/>quor
+<pb n="54" facs="tcp:40882:36"/> being ſhut in, and not capable to be condenſed, and there being no va<g ref="char:EOLhyphen"/>cuity; 'tis not poſſible, that all the parts which go before the Body ſhould move, but the parts which follow the ſame Body muſt move alſo with the ſame force. Thus as much as the Hard Body is retarded by the parts prece<g ref="char:EOLhyphen"/>ding, ſo much it is driven back by thoſe which follow; and by conſequence, if the Motion have once begun, it muſt con<g ref="char:EOLhyphen"/>tinue as if it were in <hi>vacuo.</hi> Whence it appears, that thoſe who will prove the neceſſity of a <hi>vacuum</hi> from Motion, do not reaſon well.</p>
+            </div>
+            <div n="33" type="chapter">
+               <head>
+                  <hi>XXXIII.</hi> Motions diminiſh little by little in the Air.</head>
+               <p>BUt if the hard Bodies are in a ſpon<g ref="char:EOLhyphen"/>gious Liquor, capable of com<g ref="char:EOLhyphen"/>preſſion, or if this Liquor be not ſo well bounded in, but that the extri<g ref="char:EOLhyphen"/>meties will yield a little; then the Motion will not be perpetual, but
+<pb n="55" facs="tcp:40882:36"/> diminiſh by degrees, and be at laſt quite extinct. For the hard Body will find more reſiſtance by the anteriour parts of the Liquor, than it will re<g ref="char:EOLhyphen"/>ceive of impulſe by the poſteriour; becauſe the Liquor, which is <hi>before,</hi> being compreſſed, or the extremities yielding, the communication of the im<g ref="char:EOLhyphen"/>preſſion cannot be made perfectly; and ſo the poſteriour parts of the Li<g ref="char:EOLhyphen"/>quor will not be ſo much thruſt as the anteriour, and conſequently will not ſo much thruſt the hard Body, as the anteriour ones retard it. And 'tis for this reaſon that all the Motions ceaſe in the Air and Water, or in other Liquors, becauſe 'tis certain, that the Air is ſpongious and eaſily compreſſed: And that the Liquors are not bounded but by the Air when they are abroad, or at leaſt by the ſides of ſome Veſſel that can yield and bend a little. For we know by certain experience, that Glaſs Veſſels will ſtretch, and even thoſe of Iron and Braſs will bend to the ſtrokes made upon them.</p>
+            </div>
+            <div n="34" type="chapter">
+               <pb n="56" facs="tcp:40882:37"/>
+               <head>
+                  <hi>XXXIV.</hi> The Percuſſions of equal Bodies are made in <hi>pleno</hi> as in <hi>vacuo.</hi>
+               </head>
+               <p>THe percuſſions, that are made of Bodies thus moving in <hi>Liquors,</hi> differ in ſomething from thoſe that are made in <hi>vacuo.</hi> To underſtand the Cauſe thereof, we are to note, that, when an hard Body is moved in a Li<g ref="char:EOLhyphen"/>quor, it alſo communicateth its Motion to the ſame Liquor, in ſuch a manner that it moveth alſo in following the hard Body, ſo as to divide it ſelf and to open <hi>before,</hi> and to follow and cloſe it ſelf <hi>after</hi> the Body. And if the Bo<g ref="char:EOLhyphen"/>dy by any accident ſhould come to loſe its Motion; yet the Liquor being thus determined to move, would give again to that Body its Motion, and carry it away with it ſelf, in ſome ſuch manner as Rivers carry away with them the floating Wood. If therefore a Body comes to hit another equal to it, the
+<pb n="57" facs="tcp:40882:37"/> 
+                  <hi>phoenomena</hi> will happen as in <hi>vacuo;</hi> becauſe theſe two equal Bodies, being encompaſſed with the ſame quantity of Liquor, as much as the Liquor of the Body percuſſed hinders this ſame Body percuſſed from moving freely, ſo much an equal quantity of Liquor, which is about the Body percutient, driveth al<g ref="char:EOLhyphen"/>ſo anew the percutient as well as the percuſſed: Thus their Motion after the percuſſion will be made as in <hi>vacuo,</hi> for<g ref="char:EOLhyphen"/>aſmuch as the reſiſtance of the Liquor from the Body percuſſed, is preciſely recompenſed by the impulſion of the Liquor from the Body percutient.</p>
+            </div>
+            <div n="35" type="chapter">
+               <head>
+                  <hi>XXXV.</hi> When the Bodies are un<g ref="char:EOLhyphen"/>equal, the percuſſions are made in <hi>pleno</hi> otherwiſe than in <hi>va<g ref="char:EOLhyphen"/>cuo.</hi>
+               </head>
+               <p>BUt if the Body percutient be grea<g ref="char:EOLhyphen"/>ter, it muſt needs receive not ſo great an effect from the percuſſion, as the other, becauſe 'tis carried away
+<pb n="58" facs="tcp:40882:38"/> with more violence by the Liquor which environs it: For we ſee, that a Beam carried away by the Stream of a River hath much more effect, when it comes to hit againſt a Bridge or a Mill, than a ſtick would have being carried down by the ſame River; although the Beam ſhould not move ſwifter than the Stick: And that, becauſe the Beam coming to hit, is alſo carried by the great quan<g ref="char:EOLhyphen"/>tity of water ſurrounding it, whereas the Stick is but little ſo, by reaſon of the ſmall ſpace it taketh up, and of the little water, by which 'tis car<g ref="char:EOLhyphen"/>ried away. Thus therefore if the little Body be at Reſt, and the greater come to hit it; this greater by com<g ref="char:EOLhyphen"/>municating its motion to the ſmaller will not ſo be ſtopped as to become moveleſs, as it would do in <hi>vacuo;</hi> but it will continue to move, and to follow, though more ſlowly. On the contrary if the great one be quieſcent, the ſmaller, after it ſhall have hit the other, and communicated to it a part of its Motion, will be reflected loſing a part of its velocity. And from all this
+<pb n="59" facs="tcp:40882:38"/> it appears, that <hi>Ariſtotle</hi> is not ſo much to be blamed as ſome pretend, when, to explicate the cauſes of the continuation of the Motions we ſee, he hath made uſe of the <hi>medium,</hi> that is, of the liquid ſubſtance wherein our Bodies are moved.</p>
+            </div>
+            <div n="36" type="chapter">
+               <head>
+                  <hi>XXXVI.</hi> The Percuſſions of un<g ref="char:EOLhyphen"/>equal Bodies cannot be reduced to one General Rule.</head>
+               <p>TO determine the exceſs, which there may be in the reſiſtances or in the greateſt impreſſions of theſe unequal Bodies, I eſteem a thing not to be undertaken, at leaſt if we con<g ref="char:EOLhyphen"/>ſider the Bodies ſuch as we have them among us; becauſe <hi>that</hi> depends <hi>from</hi> the reſiſtance made by the <hi>liquid</hi> Bo<g ref="char:EOLhyphen"/>dies, wherein the <hi>Hard</hi> Bodies, we ſee, are moved; <hi>from</hi> the facility, they have to be condenſed or rarified; and <hi>from</hi> many other things, that cannot be known to us, no more than an in<g ref="char:EOLhyphen"/>finity
+<pb n="60" facs="tcp:40882:39"/> of other impediments, the com<g ref="char:EOLhyphen"/>binations whereof may infinitely diver<g ref="char:EOLhyphen"/>ſifie all the effects of the percuſſions. Only I may ſay, that making a cer<g ref="char:EOLhyphen"/>tain <hi>Hypotheſis,</hi> which appears natu<g ref="char:EOLhyphen"/>ral enough, it may be ſhewed by the precedent Rules, that the percuſſions of Bodies unequal, ſhall be, after the manner delivered by <hi>Monſieur Hu<g ref="char:EOLhyphen"/>gens</hi> in the late <note n="*" place="margin">
+                     <hi>Publiſhed</hi> March 18. 1669. <hi>in</hi> French; <hi>and inſer<g ref="char:EOLhyphen"/>ted alſo in the</hi> Philo<g ref="char:EOLhyphen"/>ſophical Tranſactions, <hi>Numb.</hi> 46. <hi>pag.</hi> 927. <hi>Which Rules of Motion are conform to thoſe of Dr.</hi> Chriſt. Wren, <hi>Printed in the</hi> Tranſactions, <hi>Numb.</hi> 43. <hi>pag.</hi> 867.</note>
+                  <hi>Journal Des Scavans.</hi> But I ſhall not ſtay longer upon that; I may poſſibly meet with another op<g ref="char:EOLhyphen"/>portunity to diſcourſe more amply of it.</p>
+            </div>
+            <div n="37" type="chapter">
+               <pb n="61" facs="tcp:40882:39"/>
+               <head>
+                  <hi>XXXVII.</hi> Of Refraction.</head>
+               <p>THere appears alſo from what I have been explaining, the reaſon of the <hi>Refractions,</hi> that are made when an hard Body paſſeth out of one Liquor into another of different conſiſtence. For if the Hard Body paſſeth out of a more free Liquor into one that is leſs ſo, it will loſe ſomewhat of its velo<g ref="char:EOLhyphen"/>city in the paſſage, finding more re<g ref="char:EOLhyphen"/>ſiſtance in the Liquor which is <hi>before,</hi> than it feels it ſelf thruſt by that which <hi>follows;</hi> and ſo the Refraction will be made by <hi>receding</hi> from the Per<g ref="char:EOLhyphen"/>pendicular. On the contrary, if the Body paſſeth out of a more impeding Liquor into another more free, the Refraction will be made by <hi>approach<g ref="char:EOLhyphen"/>ing</hi> to the Perpendicular, and the Body will increaſe its velocity in the paſſage, becauſe it is thruſt more by the Liquor which <hi>follows,</hi> than 'tis detained by that which is found <hi>before.</hi> And 'tis
+<pb n="62" facs="tcp:40882:40"/> of this augmentation of velocity, which I think no body hath as yet given the reaſon of. I ſhall not note the meaſures of theſe Refractions, becauſe that hath been done by others, and their Demon<g ref="char:EOLhyphen"/>ſtrations may be very well accommo<g ref="char:EOLhyphen"/>dated to the things, here by me ad<g ref="char:EOLhyphen"/>vanced. Nor do I ſpeak in this place of the Refraction of <hi>Light,</hi> becauſe I believe, that that is made quite other<g ref="char:EOLhyphen"/>wiſe, that is, by cauſes and means al<g ref="char:EOLhyphen"/>together different; as I could make out, if I ſhould write other Diſcourſes of Motion.</p>
+            </div>
+            <div n="38" type="chapter">
+               <head>
+                  <hi>XXXVIII.</hi> The Concluſion.</head>
+               <p>THere would remain ſomething to be ſaid of the Motion of <hi>Heavy</hi> Bodies, as well of thoſe that fall or are projected in the Air, as of thoſe, which roll on inclined Plains, or which being ſuſpended by a thred do vibrate to and fro. Somewhat alſo ſhould be ſpoken of the Motion of Liquors, as well of
+<pb n="63" facs="tcp:40882:40"/> their fall as their proſiliency, as alſo of their Undulations, and the like: But all thoſe particulars deſerve ſo many particular Diſcourſes. And as I think, I have found ſomething new concerning theſe things, I ſhall not ſcruple to pub<g ref="char:EOLhyphen"/>liſh my thoughts for examination, if I find, that this firſt Diſcourſe hath not been judged altogether unworthy to be read by perſons, who take a delight in ſuch matters.</p>
+               <pb facs="tcp:40882:41"/>
+            </div>
+         </div>
+         <div type="postscript">
+            <pb facs="tcp:40882:41"/>
+            <head>AN <hi>ADVERTISEMENT</hi> TO THE READER.</head>
+            <p>THe Author of this Tract a<g ref="char:EOLhyphen"/>bout <hi>Local Motion,</hi> having been informed by a Friend, that ſome perſons who had read theſe papers, as they were coming from the Preſs, gave out, that he fol<g ref="char:EOLhyphen"/>lowed altogether the Doctrine of <hi>Monſieur Des Cartes,</hi> and that, al<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ough in ſome places he ſeemed <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> oppoſe him without naming him, yet he did eſtabliſh all the Senti<g ref="char:EOLhyphen"/>ments
+<pb facs="tcp:40882:42"/> of that Philoſopher concern<g ref="char:EOLhyphen"/>ing this Subject: He hath thought himſelf obliged to undeceive thoſe, who ſhould believe thoſe perſons upon their word, by the following Notes, which he thought fit to an<g ref="char:EOLhyphen"/>nex at the end of this Tract, be<g ref="char:EOLhyphen"/>fore it ſhould appear in publick.</p>
+         </div>
+         <div type="text">
+            <pb n="67" facs="tcp:40882:42"/>
+            <head>NOTES UPON THE DISCOURSE OF <hi>LOCAL MOTION.</hi>
+            </head>
+            <p>WHen the Author of this Di<g ref="char:EOLhyphen"/>ſcourſe inſiſted to prove, that Motion is never de<g ref="char:EOLhyphen"/>ſtroyed but by a contrary determination, ſurvening a new; he did ſufficiently declare himſelf concern<g ref="char:EOLhyphen"/>ing the little addiction he had to this Sentiment. But as thoſe, who have treated of this matter in <hi>Italy, England,</hi>
+               <pb n="68" facs="tcp:40882:43"/> 
+               <hi>Holland</hi> and <hi>France,</hi> agree almoſt all in that particular; he did not think, he was to recede from ſo common a Do<g ref="char:EOLhyphen"/>ctrine. <hi>Galilaeo, Gaſſendi, Hobbes, Regius, Magnan, Digby, Kircher, Fabri,</hi> and many others, do all main<g ref="char:EOLhyphen"/>tain in ſome manner this Perpetuity of Motion; and they only differ in the way of proving it. Of all the proofs, alledged hitherto on its behalf, the weakeſt doubtleſs is that of <hi>Monſieur Des-Cartes.</hi> This Author pretends, that if Motion or Reſt, once begun, ſhould ceaſe, God would be ſubject to change: Which is a ratiocination that maketh thoſe ſmile, who have any tincture of Theology; there being none that knoweth not, that all theſe changes in the Creatures are made without any change in God. <hi>Apud Deum non eſt tranſmutatio,</hi> ſaith St <hi>Au<g ref="char:EOLhyphen"/>guſtin; &amp; ideo apud eum Curſus tem<g ref="char:EOLhyphen"/>poris, diei noctisque alternatione nequa<g ref="char:EOLhyphen"/>quam variatur.</hi> And 'tis manifeſt, that the Ceſſation of Motion is no more repugnant to the Immutability of God, than the Creation of the World, or
+<pb n="69" facs="tcp:40882:43"/> the actions of our Wills, or the vi<g ref="char:EOLhyphen"/>ciſſitude of Days and Nights. If this reaſon of <hi>Monſieur Des-Cartes</hi> were not ſo eaſie to anſwer, it would be a dangerous one; becauſe it would prove, that God ſhould have made from Eternity all the Motion, which is now found in the World.</p>
+            <p>As many in the choice of Opinions have a regard to the Sentiment of the Antients, and of the Scholaſtick Do<g ref="char:EOLhyphen"/>ctors, it may be added here, that beſides what <hi>Vaſquez</hi> hath ſaid; who in<g ref="char:EOLhyphen"/>ſiſts to prove at large this <hi>Perpetuity</hi> of Motion, affirming, that Motion, once begun, never ceaſeth, unleſs there ſur<g ref="char:EOLhyphen"/>vene ſome new Cauſe, producing ſome poſitive form contrary to this Motion: Beſides that, I ſay, three of thoſe great Diſputations of <hi>Lyons,</hi> held at ſeveral times, affirm the ſame thing. Moreover, <hi>Ariſtotle</hi> is of the ſame mind. See, what he ſaith in his third Book of <hi>Meteors,</hi> Chap. 2. <hi>If a Bo<g ref="char:EOLhyphen"/>dy, that were without gravity or levity, be moved, it muſt needs be moved by ſome</hi> adventitious <hi>force, and being once</hi>
+               <pb n="70" facs="tcp:40882:44"/> 
+               <hi>ſo moved, it will move in infinitum:</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. And in the fourth Book of his <hi>Phyſicks,</hi> Text. 69. ſpeaking of a Body, that had moved in <hi>vacuo,</hi> where 'tis ſuppo<g ref="char:EOLhyphen"/>ſed that there is no kind of impediment, he hath theſe words: <hi>No Man can ſay, why a Body, that were thus moved in</hi> vacuo, <hi>ſhould ſtop any where. For, why ſhould it rather ſtop here than there? And therefore it will not ſtir at all<g ref="char:punc">▪</g> or, if it begin to ſtir, it muſt move</hi> in infini<g ref="char:EOLhyphen"/>tum, <hi>if ſomething ſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>onger doth not ſtop it.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>Monſieur Des-Cartes</hi> maketh very ill uſe of the Principle that hath been ex<g ref="char:EOLhyphen"/>plained in § 13. <hi>That a Body which is moved about a Center, endevours to re<g ref="char:EOLhyphen"/>cede from it.</hi> It can be made out, that he hath miſtaken in attempting thereby to explicate the <hi>Gravity</hi> of Bodies. Neither do we mean to allow to this Principle all that Latitude, which <hi>Mon<g ref="char:EOLhyphen"/>ſieur Des-Cartes</hi> hath given it. And
+<pb n="71" facs="tcp:40882:44"/> we approve much of that reſtriction, that hath been put by an Intelligent perſon, <hi>viz.</hi> That that is true in <hi>Arti<g ref="char:EOLhyphen"/>ficial</hi> Motions, and that it cannot be ſo in the <hi>Natural.</hi>
+            </p>
+            <p>What hath been proved in § 16. and the following, ſheweth, that <hi>Mon<g ref="char:EOLhyphen"/>ſieur Des-Cartes</hi> hath been deceived in Six Rules of the <note n="*" place="margin">
+                  <hi>Theſe Rules may be found in the ſecond part of</hi> Des-Cartes<hi>'s</hi> Princi<g ref="char:EOLhyphen"/>ples of Philoſophy. <hi>Sect.</hi> 46, 47, 48, 49, 50, 51, 52, <hi>in my Edition, which is printed at</hi> Am<g ref="char:EOLhyphen"/>ſterdam, A. 1656.</note>Seven, which he hath delivered a<g ref="char:EOLhyphen"/>bout Motion.</p>
+            <p>In § 26. It is not at all pretended, to favour the O<g ref="char:EOLhyphen"/>pinion of the <hi>Motion</hi> of the <hi>Earth.</hi> The Author of this Diſcourſe is fully per<g ref="char:EOLhyphen"/>ſwaded, that, although there were not the Holy Scriptures, the <hi>Hypotheſis,</hi> which maketh the Earth moveleſs, is preferable to all others. He would only ſhew, that that Argument of <hi>P. Ricciolo</hi> was not cogent. There are others that are better; eſpecially that, which hath been prevalent on very good occaſions, taken from the <hi>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>onique</hi> motion of the Load-ſtone.</p>
+            <p>The 29. § is againſt <hi>Monſieur Des-Cartes,</hi>
+               <pb n="72" facs="tcp:40882:45"/> who hath not diſtinguiſhed the Motion which is here called <hi>abſolute</hi> from that, which is called <hi>reſpective.</hi> And when he ſaith, that there is always an equal quantity of Motion <hi>before</hi> or <hi>after</hi> the percuſſion, he means it of this <hi>abſolute</hi> Motion; or it is very apparent, that he hath therein miſtaken. For (in the <hi>figure</hi> 14.) before the percuſſion, the Motion of the two Balls A and B is A a and B b, and all the Motion after the percuſſion, reduced together in the ſole Ball <hi>b,</hi> is only b <hi>b,</hi> the other Ball remaining moveleſs in <hi>a.</hi>
+            </p>
+            <p>When in § 21. mention is made of a ſubſtance more ſubtile than the Air, the Reader is not to imagin, that it is the ſubtile Matter of <hi>M. Des-Cartes.</hi> All Men acknowledge, that there are ſub<g ref="char:EOLhyphen"/>tiler Bodies, than the Air which we inſpire. And as <hi>Ariſtotle</hi> in his Con<g ref="char:EOLhyphen"/>ſtitution of the Univerſe hath placed the Sphere of the Air above the Wa<g ref="char:EOLhyphen"/>ter, ſo hath he put the Fire above the Air, and the <hi>Aether</hi> above the Fire; which are all different ſubſtances, which the more ſubtile they are, the higher they are raiſed.</p>
+            <pb n="73" facs="tcp:40882:45"/>
+            <p> It is pretended in § 37. that <hi>M. Des-Cartes</hi> hath not proved the Refracti<g ref="char:EOLhyphen"/>ons of Bodies, and much leſs that of Light.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:40882:46"/>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:40882:46"/>
+            <head>Theſe Books are to be Sold by <hi>Moſes Pitt</hi> at the <hi>White-Hart</hi> in <hi>Little-Britain.</hi>
+            </head>
+            <list>
+               <head>Folio.</head>
+               <item>
+                  <hi>CAſſandra,</hi> the fam'd Romance, 1667.</item>
+               <item>
+                  <hi>Brigg</hi>'s Logarithms.</item>
+               <item>
+                  <hi>Franciſci Suarez</hi> Metaphyſica.</item>
+            </list>
+            <list>
+               <head>Quarto.</head>
+               <item>Dr <hi>John Pells</hi> Introduction to <hi>Algebra,</hi> Tranſlated out of <hi>High-Duch</hi> into <hi>Engliſh</hi> by <hi>Thomas Branker,</hi> M. A. Alſo a Table of odd Numbers leſs than 100000, ſhewing thoſe that are Incompoſits, and reſolving the reſt in<g ref="char:EOLhyphen"/>to their Factors or Coefficients, 1668.</item>
+               <item>
+                  <hi>Nich. Mercatoris</hi> Logarithmo-Technia, ſive Methodus conſtruendi Logarith<g ref="char:EOLhyphen"/>mos, 1668.</item>
+               <item>
+                  <hi>Jacobi Gregorii</hi> Exercitationes Geome<g ref="char:EOLhyphen"/>tricae, 1668.</item>
+               <item>Dr. <hi>Joh. Wallis</hi> Opera Mechanica, pars prima &amp; ſecunda, 1670.</item>
+               <pb facs="tcp:40882:47"/>
+               <item>
+                  <hi>Baniſter</hi>'s Works of Chyrurgery.</item>
+               <item>
+                  <hi>Hugh Broughton</hi>'s Conſent of Scripture.</item>
+               <item>
+                  <hi>Snellii</hi>
+                  <list>
+                     <item>Typhis Batavus, <hi>Lugd. Bat.</hi> 1624.</item>
+                     <item>Obſervat Huſſiacae.</item>
+                  </list>
+               </item>
+               <item>
+                  <hi>Petrus Paaw,</hi> de oſſibus Amſtelreod. 1633.</item>
+               <item>A Letter from a Gentleman of the Lord <hi>Howard</hi>'s Retinue to his Friend in <hi>London.</hi> Dated at <hi>Fez, Nov.</hi> 1669. Wherein he gives a full Relation of the moſt remarkeable paſſages in their Voyage thither, and of the preſent State of the Countries under the power of <hi>Taffaletta,</hi> Emperour of <hi>Morocco;</hi> with a brief account of the Merchandizing Commodities of <hi>Africa,</hi> as alſo the Manners and Cuſtoms of the People there.</item>
+               <item>
+                  <hi>Lex <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>alionis, ſive Vindiciae Pharmaco<g ref="char:EOLhyphen"/>poeorum:</hi> Or, A ſhort Reply to Dr. <hi>Merret</hi>'s Book, and others, written againſt the Apothecaries; wherein may be diſcovered the Frauds and Abuſes committed by Doctors pro<g ref="char:EOLhyphen"/>feſſing and practiſing Pharmacy.</item>
+            </list>
+            <list>
+               <pb facs="tcp:40882:47"/>
+               <head>Octavo.</head>
+               <item>Biblia Hebraea, <hi>Joſephi Athias,</hi> 1661.</item>
+               <item>
+                  <hi>Gualteri Needham,</hi> Diſquiſitio Anato<g ref="char:EOLhyphen"/>mica de Formato Foetu, 1667.</item>
+               <item>
+                  <hi>Buxtorfius</hi>'s Fpitomy of his <hi>Hebrew</hi> Grammar, tranſlated in <hi>Engliſh</hi> by <hi>John Davis,</hi> 1658.</item>
+               <item>
+                  <hi>Crow,</hi> Scriptores in Scripturam: <hi>Now in the Preſs.</hi>
+               </item>
+               <item>The Fortunate Fool, or the Life of the Dr. <hi>Cen<g ref="char:cmbAbbrStroke">̄</g>udo,</hi> 1670.</item>
+               <item>The Adventures of Mr. <hi>T S.</hi> an <hi>Engliſh</hi> Merchant, taken Priſoner by the <hi>Turks</hi> of <hi>Argiers,</hi> and carried into the Inland Countries of <hi>Africa;</hi> with a Deſcription of the Kingdom of <hi>Argiers,</hi> and of all the Towns and Places thereabouts; as alſo a Rela<g ref="char:EOLhyphen"/>tion of the chief Commodities of the Countrey, and of the Actions and Manners of the People: Whereunto is annexed, an Obſervation of the Tide, and how to turn a Ship out of the <hi>Straights Mouth</hi> the wind being weſterly, 1670.</item>
+               <item>Contemplations on Mortality, 1669.</item>
+               <item>A Diſcourſe written to a learned Frier
+<pb facs="tcp:40882:48"/> by <hi>M. Des Fourneillis,</hi> ſhewing, that the Syſteme of <hi>M. Des Cartes,</hi> and particularly his Opinion concerning Brutes, does contain nothing dange<g ref="char:EOLhyphen"/>rous; and that all he hath written of both, ſeems to have been taken out of the Firſt Chapter of <hi>Geneſis:</hi> To which is annexed the Syſteme gene<g ref="char:EOLhyphen"/>ral of the <hi>Carteſian</hi> Philoſophy.</item>
+               <item>
+                  <hi>Baſilius Valentinus</hi> of Natural and Su<g ref="char:EOLhyphen"/>pernatural Things; alſo of the firſt <hi>Tincture, Root</hi> and <hi>Spirit</hi> of Metals and Minerals, how the ſame are Con<g ref="char:EOLhyphen"/>ceived, Generated, Brought forth, Changed and Augmented: To which is added <hi>Alex. van Suchten</hi> of the Secrets of Antimony, 1670.</item>
+               <item>
+                  <hi>Pharmacopoeia Lond.</hi> 24<hi rend="sup">o</hi>. 1668.</item>
+            </list>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:40882:48"/>
+            <pb facs="tcp:40882:49" rendition="simple:additions"/>
+            <p>
+               <figure>
+                  <figDesc>geometric figures</figDesc>
+               </figure>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
